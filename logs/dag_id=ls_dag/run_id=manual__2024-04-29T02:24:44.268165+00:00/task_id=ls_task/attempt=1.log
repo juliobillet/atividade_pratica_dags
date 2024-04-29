@@ -1,0 +1,32 @@
+[2024-04-28T23:24:52.110-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-28T23:24:52.135-0300] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ls_dag.ls_task manual__2024-04-29T02:24:44.268165+00:00 [queued]>
+[2024-04-28T23:24:52.143-0300] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ls_dag.ls_task manual__2024-04-29T02:24:44.268165+00:00 [queued]>
+[2024-04-28T23:24:52.143-0300] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-04-28T23:24:52.160-0300] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): ls_task> on 2024-04-29 02:24:44.268165+00:00
+[2024-04-28T23:24:52.167-0300] {standard_task_runner.py:63} INFO - Started process 17603 to run task
+[2024-04-28T23:24:52.171-0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'ls_dag', 'ls_task', 'manual__2024-04-29T02:24:44.268165+00:00', '--job-id', '56', '--raw', '--subdir', 'DAGS_FOLDER/ls_dag.py', '--cfg-path', '/tmp/tmpaoy5u2le']
+[2024-04-28T23:24:52.174-0300] {standard_task_runner.py:91} INFO - Job 56: Subtask ls_task
+[2024-04-28T23:24:52.229-0300] {task_command.py:426} INFO - Running <TaskInstance: ls_dag.ls_task manual__2024-04-29T02:24:44.268165+00:00 [running]> on host ath
+[2024-04-28T23:24:52.340-0300] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='ls_dag' AIRFLOW_CTX_TASK_ID='ls_task' AIRFLOW_CTX_EXECUTION_DATE='2024-04-29T02:24:44.268165+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-29T02:24:44.268165+00:00'
+[2024-04-28T23:24:52.343-0300] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-28T23:24:52.347-0300] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-04-28T23:24:52.349-0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'ls -la $AIRFLOW_HOME']
+[2024-04-28T23:24:52.371-0300] {subprocess.py:86} INFO - Output:
+[2024-04-28T23:24:52.385-0300] {subprocess.py:93} INFO - total 1308
+[2024-04-28T23:24:52.385-0300] {subprocess.py:93} INFO - drwxrwxr-x 7 athlon athlon    4096 abr 28 23:24 .
+[2024-04-28T23:24:52.386-0300] {subprocess.py:93} INFO - drwxrwxr-x 4 athlon athlon    4096 abr 26 00:34 ..
+[2024-04-28T23:24:52.386-0300] {subprocess.py:93} INFO - -rw------- 1 athlon athlon   80509 abr 26 05:27 airflow.cfg
+[2024-04-28T23:24:52.386-0300] {subprocess.py:93} INFO - -rw-r--r-- 1 athlon athlon 1212416 abr 28 23:24 airflow.db
+[2024-04-28T23:24:52.386-0300] {subprocess.py:93} INFO - -rw-r--r-- 1 athlon athlon       6 abr 28 23:24 airflow-webserver.pid
+[2024-04-28T23:24:52.387-0300] {subprocess.py:93} INFO - drwxrwxr-x 3 athlon athlon    4096 abr 28 22:42 dags
+[2024-04-28T23:24:52.387-0300] {subprocess.py:93} INFO - drwxrwxr-x 7 athlon athlon    4096 abr 28 21:17 .git
+[2024-04-28T23:24:52.387-0300] {subprocess.py:93} INFO - drwxrwxr-x 3 athlon athlon    4096 abr 28 23:24 .idea
+[2024-04-28T23:24:52.387-0300] {subprocess.py:93} INFO - drwxrwxr-x 7 athlon athlon    4096 abr 28 21:52 logs
+[2024-04-28T23:24:52.387-0300] {subprocess.py:93} INFO - drwxrwxr-x 5 athlon athlon    4096 abr 26 01:41 .venv
+[2024-04-28T23:24:52.388-0300] {subprocess.py:93} INFO - -rw-rw-r-- 1 athlon athlon    4762 abr 26 05:28 webserver_config.py
+[2024-04-28T23:24:52.388-0300] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-04-28T23:24:52.389-0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-28T23:24:52.412-0300] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=ls_dag, task_id=ls_task, execution_date=20240429T022444, start_date=20240429T022452, end_date=20240429T022452
+[2024-04-28T23:24:52.463-0300] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-04-28T23:24:52.481-0300] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-28T23:24:52.482-0300] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,553 @@
+[2024-04-28T06:26:10.030-0300] {processor.py:161} INFO - Started process (PID=11634) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T06:26:10.031-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T06:26:10.034-0300] {logging_mixin.py:188} INFO - [2024-04-28T06:26:10.033-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T06:26:10.043-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T06:26:10.180-0300] {logging_mixin.py:188} INFO - [2024-04-28T06:26:10.179-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T06:26:10.195-0300] {logging_mixin.py:188} INFO - [2024-04-28T06:26:10.195-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T06:26:10.390-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.367 seconds
+[2024-04-28T06:27:30.368-0300] {processor.py:161} INFO - Started process (PID=11814) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T06:27:30.369-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T06:27:30.371-0300] {logging_mixin.py:188} INFO - [2024-04-28T06:27:30.371-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T06:27:30.380-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T06:27:30.403-0300] {logging_mixin.py:188} INFO - [2024-04-28T06:27:30.402-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T06:27:30.419-0300] {logging_mixin.py:188} INFO - [2024-04-28T06:27:30.419-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T06:27:30.449-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.089 seconds
+[2024-04-28T06:28:48.986-0300] {processor.py:161} INFO - Started process (PID=11900) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T06:28:48.987-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T06:28:48.990-0300] {logging_mixin.py:188} INFO - [2024-04-28T06:28:48.989-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T06:28:48.999-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T06:28:49.019-0300] {logging_mixin.py:188} INFO - [2024-04-28T06:28:49.019-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T06:28:49.036-0300] {logging_mixin.py:188} INFO - [2024-04-28T06:28:49.036-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T06:28:49.065-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.088 seconds
+[2024-04-28T19:15:32.885-0300] {processor.py:161} INFO - Started process (PID=5064) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:15:32.887-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T19:15:32.890-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:15:32.889-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:15:32.903-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:15:32.941-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:15:32.940-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T19:15:32.970-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:15:32.970-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T19:15:33.027-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.153 seconds
+[2024-04-28T19:16:40.589-0300] {processor.py:161} INFO - Started process (PID=5188) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:16:40.590-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T19:16:40.594-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:16:40.593-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:16:40.603-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:16:40.625-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:16:40.625-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T19:16:40.644-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:16:40.643-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T19:16:40.676-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.096 seconds
+[2024-04-28T19:17:41.863-0300] {processor.py:161} INFO - Started process (PID=5267) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:17:41.864-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T19:17:41.869-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:17:41.868-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:17:41.883-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:17:41.914-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:17:41.913-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T19:17:41.942-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:17:41.941-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T19:17:41.988-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.138 seconds
+[2024-04-28T19:18:46.831-0300] {processor.py:161} INFO - Started process (PID=5359) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:18:46.837-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T19:18:46.842-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:18:46.841-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:18:46.863-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:18:46.895-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:18:46.895-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T19:18:46.922-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:18:46.922-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T19:18:46.980-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.163 seconds
+[2024-04-28T19:19:56.579-0300] {processor.py:161} INFO - Started process (PID=5444) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:19:56.585-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T19:19:56.589-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:19:56.588-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:19:56.598-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:19:56.621-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:19:56.620-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T19:19:56.641-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:19:56.640-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T19:19:56.671-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.107 seconds
+[2024-04-28T19:20:56.967-0300] {processor.py:161} INFO - Started process (PID=5527) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:20:56.973-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T19:20:56.975-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:20:56.975-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:20:56.984-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:20:57.007-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:20:57.006-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T19:20:57.024-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:20:57.024-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T19:20:57.059-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.100 seconds
+[2024-04-28T19:21:59.639-0300] {processor.py:161} INFO - Started process (PID=5612) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:21:59.645-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T19:21:59.647-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:21:59.647-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:21:59.656-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:21:59.677-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:21:59.677-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T19:21:59.694-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:21:59.694-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T19:21:59.725-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.094 seconds
+[2024-04-28T19:22:59.403-0300] {processor.py:161} INFO - Started process (PID=5685) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:22:59.408-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T19:22:59.412-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:22:59.411-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:22:59.427-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:22:59.466-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:22:59.465-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T19:22:59.496-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:22:59.495-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T19:22:59.649-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.259 seconds
+[2024-04-28T19:24:20.530-0300] {processor.py:161} INFO - Started process (PID=5772) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:24:20.536-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T19:24:20.538-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:24:20.538-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:24:20.547-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:24:20.569-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:24:20.568-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T19:24:20.586-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:24:20.586-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T19:24:20.617-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.096 seconds
+[2024-04-28T19:25:24.957-0300] {processor.py:161} INFO - Started process (PID=5912) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:25:24.963-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T19:25:24.966-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:25:24.965-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:25:24.976-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:25:24.999-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:25:24.999-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T19:25:25.017-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:25:25.017-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T19:25:25.049-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.101 seconds
+[2024-04-28T19:26:37.808-0300] {processor.py:161} INFO - Started process (PID=6034) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:26:37.810-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T19:26:37.813-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:26:37.813-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:26:37.825-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:26:37.850-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:26:37.849-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T19:26:37.883-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:26:37.883-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T19:26:37.945-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.150 seconds
+[2024-04-28T19:27:37.366-0300] {processor.py:161} INFO - Started process (PID=6123) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:27:37.376-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T19:27:37.381-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:27:37.379-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:27:37.397-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:27:37.439-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:27:37.439-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T19:27:37.470-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:27:37.470-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T19:27:37.525-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.173 seconds
+[2024-04-28T19:28:40.828-0300] {processor.py:161} INFO - Started process (PID=6247) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:28:40.829-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T19:28:40.833-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:28:40.832-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:28:40.845-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:28:40.870-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:28:40.870-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T19:28:40.888-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:28:40.888-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T19:28:40.920-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.102 seconds
+[2024-04-28T19:29:46.825-0300] {processor.py:161} INFO - Started process (PID=6329) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:29:46.826-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T19:29:46.830-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:29:46.829-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:29:46.841-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:29:46.866-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:29:46.865-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T19:29:46.886-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:29:46.886-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T19:29:46.920-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.106 seconds
+[2024-04-28T19:30:49.980-0300] {processor.py:161} INFO - Started process (PID=6426) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:30:49.982-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T19:30:49.985-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:30:49.984-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:30:49.997-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:30:50.027-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:30:50.027-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T19:30:50.050-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:30:50.049-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T19:30:50.088-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.118 seconds
+[2024-04-28T19:31:52.628-0300] {processor.py:161} INFO - Started process (PID=6504) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:31:52.633-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T19:31:52.636-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:31:52.636-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:31:52.651-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:31:52.686-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:31:52.685-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T19:31:52.716-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:31:52.716-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T19:31:52.778-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.160 seconds
+[2024-04-28T19:33:19.199-0300] {processor.py:161} INFO - Started process (PID=6691) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:33:19.200-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T19:33:19.203-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:33:19.202-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:33:19.214-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:33:19.237-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:33:19.236-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T19:33:19.255-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:33:19.255-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T19:33:19.289-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.101 seconds
+[2024-04-28T19:34:25.375-0300] {processor.py:161} INFO - Started process (PID=6773) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:34:25.377-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T19:34:25.379-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:34:25.379-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:34:25.390-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:34:25.414-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:34:25.413-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T19:34:25.432-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:34:25.431-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T19:34:25.464-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.098 seconds
+[2024-04-28T19:35:25.752-0300] {processor.py:161} INFO - Started process (PID=6854) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:35:25.758-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T19:35:25.764-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:35:25.762-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:35:25.781-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:35:25.818-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:35:25.816-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T19:35:25.850-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:35:25.850-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T19:35:25.895-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.160 seconds
+[2024-04-28T19:36:23.352-0300] {processor.py:161} INFO - Started process (PID=6933) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:36:23.354-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T19:36:23.358-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:36:23.357-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:36:23.374-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:36:23.410-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:36:23.410-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T19:36:23.441-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:36:23.440-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T19:36:23.491-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.156 seconds
+[2024-04-28T19:59:11.565-0300] {processor.py:161} INFO - Started process (PID=5728) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:59:11.573-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T19:59:11.577-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:59:11.576-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:59:11.590-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T19:59:11.625-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:59:11.625-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T19:59:11.656-0300] {logging_mixin.py:188} INFO - [2024-04-28T19:59:11.655-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T19:59:11.720-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.167 seconds
+[2024-04-28T20:00:38.221-0300] {processor.py:161} INFO - Started process (PID=5849) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:00:38.226-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:00:38.229-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:00:38.229-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:00:38.239-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:00:38.262-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:00:38.262-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:00:38.278-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:00:38.277-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:00:38.306-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.096 seconds
+[2024-04-28T20:01:40.233-0300] {processor.py:161} INFO - Started process (PID=5924) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:01:40.238-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:01:40.241-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:01:40.240-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:01:40.251-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:01:40.273-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:01:40.273-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:01:40.289-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:01:40.289-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:01:40.317-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.095 seconds
+[2024-04-28T20:02:50.628-0300] {processor.py:161} INFO - Started process (PID=6005) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:02:50.633-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:02:50.636-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:02:50.635-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:02:50.646-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:02:50.669-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:02:50.669-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:02:50.685-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:02:50.685-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:02:50.713-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.096 seconds
+[2024-04-28T20:04:06.146-0300] {processor.py:161} INFO - Started process (PID=6098) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:04:06.151-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:04:06.153-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:04:06.153-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:04:06.162-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:04:06.183-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:04:06.182-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:04:06.199-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:04:06.198-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:04:06.228-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.091 seconds
+[2024-04-28T20:05:10.504-0300] {processor.py:161} INFO - Started process (PID=6178) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:05:10.510-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:05:10.512-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:05:10.512-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:05:10.523-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:05:10.547-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:05:10.546-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:05:10.564-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:05:10.564-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:05:10.595-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.102 seconds
+[2024-04-28T20:06:15.628-0300] {processor.py:161} INFO - Started process (PID=6258) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:06:15.634-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:06:15.636-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:06:15.636-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:06:15.646-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:06:15.669-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:06:15.669-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:06:15.685-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:06:15.685-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:06:15.715-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.098 seconds
+[2024-04-28T20:07:22.118-0300] {processor.py:161} INFO - Started process (PID=6337) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:07:22.123-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:07:22.126-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:07:22.125-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:07:22.136-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:07:22.160-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:07:22.159-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:07:22.176-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:07:22.175-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:07:22.205-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.098 seconds
+[2024-04-28T20:08:26.885-0300] {processor.py:161} INFO - Started process (PID=6413) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:08:26.891-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:08:26.893-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:08:26.893-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:08:26.904-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:08:26.927-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:08:26.926-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:08:26.942-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:08:26.942-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:08:26.972-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.098 seconds
+[2024-04-28T20:09:29.763-0300] {processor.py:161} INFO - Started process (PID=6534) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:09:29.769-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:09:29.772-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:09:29.771-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:09:29.784-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:09:29.814-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:09:29.814-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:09:29.839-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:09:29.838-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:09:29.882-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.132 seconds
+[2024-04-28T20:10:30.949-0300] {processor.py:161} INFO - Started process (PID=6606) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:10:30.955-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:10:30.957-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:10:30.957-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:10:30.967-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:10:30.989-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:10:30.989-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:10:31.007-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:10:31.006-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:10:31.037-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.098 seconds
+[2024-04-28T20:11:34.633-0300] {processor.py:161} INFO - Started process (PID=6681) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:11:34.639-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:11:34.641-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:11:34.641-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:11:34.651-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:11:34.674-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:11:34.674-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:11:34.690-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:11:34.690-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:11:34.722-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.100 seconds
+[2024-04-28T20:12:36.180-0300] {processor.py:161} INFO - Started process (PID=6754) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:12:36.186-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:12:36.188-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:12:36.188-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:12:36.199-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:12:36.222-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:12:36.221-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:12:36.238-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:12:36.237-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:12:36.270-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.101 seconds
+[2024-04-28T20:13:37.838-0300] {processor.py:161} INFO - Started process (PID=6829) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:13:37.844-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:13:37.846-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:13:37.846-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:13:37.857-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:13:37.880-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:13:37.880-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:13:37.896-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:13:37.896-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:13:37.927-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.099 seconds
+[2024-04-28T20:14:40.539-0300] {processor.py:161} INFO - Started process (PID=6903) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:14:40.544-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:14:40.547-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:14:40.546-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:14:40.557-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:14:40.580-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:14:40.580-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:14:40.596-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:14:40.596-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:14:40.625-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.097 seconds
+[2024-04-28T20:15:49.031-0300] {processor.py:161} INFO - Started process (PID=6993) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:15:49.037-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:15:49.040-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:15:49.039-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:15:49.050-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:15:49.072-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:15:49.072-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:15:49.090-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:15:49.090-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:15:49.119-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.098 seconds
+[2024-04-28T20:16:48.785-0300] {processor.py:161} INFO - Started process (PID=7065) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:16:48.791-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:16:48.794-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:16:48.793-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:16:48.804-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:16:48.826-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:16:48.826-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:16:48.842-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:16:48.842-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:16:48.872-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.098 seconds
+[2024-04-28T20:17:52.184-0300] {processor.py:161} INFO - Started process (PID=7146) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:17:52.190-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:17:52.192-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:17:52.192-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:17:52.202-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:17:52.226-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:17:52.225-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:17:52.241-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:17:52.241-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:17:52.271-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.097 seconds
+[2024-04-28T20:18:58.878-0300] {processor.py:161} INFO - Started process (PID=7241) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:18:58.884-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:18:58.887-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:18:58.886-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:18:58.900-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:18:58.932-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:18:58.932-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:18:58.959-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:18:58.958-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:18:59.007-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.142 seconds
+[2024-04-28T20:20:01.108-0300] {processor.py:161} INFO - Started process (PID=7318) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:20:01.109-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:20:01.112-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:20:01.111-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:20:01.122-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:20:01.144-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:20:01.143-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:20:01.160-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:20:01.160-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:20:01.190-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.093 seconds
+[2024-04-28T20:21:02.698-0300] {processor.py:161} INFO - Started process (PID=7390) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:21:02.703-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:21:02.706-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:21:02.705-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:21:02.716-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:21:02.740-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:21:02.739-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:21:02.756-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:21:02.756-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:21:02.786-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.098 seconds
+[2024-04-28T20:22:10.152-0300] {processor.py:161} INFO - Started process (PID=7468) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:22:10.158-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:22:10.161-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:22:10.160-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:22:10.171-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:22:10.194-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:22:10.193-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:22:10.210-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:22:10.209-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:22:10.240-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.099 seconds
+[2024-04-28T20:23:22.240-0300] {processor.py:161} INFO - Started process (PID=7553) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:23:22.246-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:23:22.249-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:23:22.248-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:23:22.259-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:23:22.282-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:23:22.282-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:23:22.298-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:23:22.298-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:23:22.328-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.098 seconds
+[2024-04-28T20:24:24.171-0300] {processor.py:161} INFO - Started process (PID=7628) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:24:24.177-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:24:24.179-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:24:24.178-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:24:24.189-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:24:24.212-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:24:24.212-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:24:24.228-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:24:24.228-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:24:24.257-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.096 seconds
+[2024-04-28T20:25:28.552-0300] {processor.py:161} INFO - Started process (PID=7705) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:25:28.558-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:25:28.561-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:25:28.560-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:25:28.576-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:25:28.609-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:25:28.609-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:25:28.638-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:25:28.637-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:25:28.692-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.150 seconds
+[2024-04-28T20:26:31.573-0300] {processor.py:161} INFO - Started process (PID=7786) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:26:31.575-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:26:31.578-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:26:31.577-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:26:31.586-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:26:31.607-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:26:31.607-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:26:31.624-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:26:31.623-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:26:31.653-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.092 seconds
+[2024-04-28T20:27:33.599-0300] {processor.py:161} INFO - Started process (PID=7858) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:27:33.605-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:27:33.608-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:27:33.607-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:27:33.619-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:27:33.643-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:27:33.643-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:27:33.659-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:27:33.659-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:27:33.690-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.101 seconds
+[2024-04-28T20:28:42.913-0300] {processor.py:161} INFO - Started process (PID=7943) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:28:42.919-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:28:42.922-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:28:42.921-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:28:42.932-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:28:42.955-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:28:42.955-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:28:42.971-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:28:42.971-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:28:43.000-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.098 seconds
+[2024-04-28T20:29:44.307-0300] {processor.py:161} INFO - Started process (PID=8016) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:29:44.313-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:29:44.315-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:29:44.315-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:29:44.324-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:29:44.351-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:29:44.351-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:29:44.380-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:29:44.379-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:29:44.431-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.131 seconds
+[2024-04-28T20:30:46.849-0300] {processor.py:161} INFO - Started process (PID=8106) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:30:46.854-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:30:46.857-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:30:46.856-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:30:46.867-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:30:46.890-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:30:46.890-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:30:46.906-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:30:46.906-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:30:46.936-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.098 seconds
+[2024-04-28T20:31:50.817-0300] {processor.py:161} INFO - Started process (PID=8182) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:31:50.823-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:31:50.826-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:31:50.825-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:31:50.836-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:31:50.859-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:31:50.859-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:31:50.875-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:31:50.875-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:31:50.906-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.099 seconds
+[2024-04-28T20:32:54.756-0300] {processor.py:161} INFO - Started process (PID=8262) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:32:54.762-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:32:54.765-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:32:54.764-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:32:54.775-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:32:54.799-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:32:54.798-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:32:54.815-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:32:54.815-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:32:54.845-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.100 seconds
+[2024-04-28T20:33:58.741-0300] {processor.py:161} INFO - Started process (PID=8339) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:33:58.747-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:33:58.750-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:33:58.749-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:33:58.760-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:33:58.783-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:33:58.783-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:33:58.799-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:33:58.799-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:33:58.829-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.098 seconds
+[2024-04-28T20:34:59.836-0300] {processor.py:161} INFO - Started process (PID=8412) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:34:59.842-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:34:59.846-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:34:59.845-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:34:59.861-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:34:59.895-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:34:59.894-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:34:59.922-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:34:59.921-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:34:59.977-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.153 seconds
+[2024-04-28T20:36:05.089-0300] {processor.py:161} INFO - Started process (PID=8491) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:36:05.094-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:36:05.097-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:36:05.097-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:36:05.108-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:36:05.131-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:36:05.131-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:36:05.148-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:36:05.147-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:36:05.177-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.099 seconds
+[2024-04-28T20:37:06.912-0300] {processor.py:161} INFO - Started process (PID=8563) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:37:06.918-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:37:06.921-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:37:06.920-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:37:06.931-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:37:06.955-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:37:06.954-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:37:06.970-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:37:06.970-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:37:07.000-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.098 seconds
+[2024-04-28T20:38:13.050-0300] {processor.py:161} INFO - Started process (PID=8641) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:38:13.056-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:38:13.059-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:38:13.058-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:38:13.069-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:38:13.092-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:38:13.092-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:38:13.108-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:38:13.108-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:38:13.137-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.099 seconds
+[2024-04-28T20:39:14.779-0300] {processor.py:161} INFO - Started process (PID=8751) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:39:14.781-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:39:14.784-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:39:14.783-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:39:14.793-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:39:14.815-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:39:14.815-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:39:14.834-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:39:14.834-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:39:14.866-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.096 seconds
+[2024-04-28T20:40:15.305-0300] {processor.py:161} INFO - Started process (PID=8822) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:40:15.311-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:40:15.314-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:40:15.313-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:40:15.327-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:40:15.363-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:40:15.361-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:40:15.392-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:40:15.391-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:40:15.441-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.149 seconds
+[2024-04-28T20:41:16.743-0300] {processor.py:161} INFO - Started process (PID=8900) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:41:16.748-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:41:16.751-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:41:16.751-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:41:16.762-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:41:16.784-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:41:16.784-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:41:16.800-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:41:16.800-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:41:16.830-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.098 seconds
+[2024-04-28T20:42:19.219-0300] {processor.py:161} INFO - Started process (PID=9013) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:42:19.224-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:42:19.227-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:42:19.226-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:42:19.236-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:42:19.259-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:42:19.259-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:42:19.285-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:42:19.285-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:42:19.336-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.125 seconds
+[2024-04-28T20:43:24.353-0300] {processor.py:161} INFO - Started process (PID=9127) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:43:24.359-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:43:24.363-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:43:24.362-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:43:24.372-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:43:24.392-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:43:24.392-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:43:24.409-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:43:24.409-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:43:24.448-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.107 seconds
+[2024-04-28T20:44:30.469-0300] {processor.py:161} INFO - Started process (PID=9259) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:44:30.475-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:44:30.478-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:44:30.477-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:44:30.489-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:44:30.512-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:44:30.512-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:44:30.530-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:44:30.529-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:44:30.558-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.101 seconds
+[2024-04-28T20:45:36.400-0300] {processor.py:161} INFO - Started process (PID=9384) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:45:36.406-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:45:36.409-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:45:36.408-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:45:36.421-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:45:36.444-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:45:36.443-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:45:36.460-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:45:36.460-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:45:36.490-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.100 seconds
+[2024-04-28T20:46:41.417-0300] {processor.py:161} INFO - Started process (PID=9481) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:46:41.418-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:46:41.421-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:46:41.421-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:46:41.432-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:46:41.454-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:46:41.453-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:46:41.470-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:46:41.470-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:46:41.500-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.092 seconds
+[2024-04-28T20:47:39.969-0300] {processor.py:161} INFO - Started process (PID=9624) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:47:39.971-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:47:39.975-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:47:39.974-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:47:39.989-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:47:40.022-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:47:40.021-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:47:40.051-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:47:40.050-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:47:40.100-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.145 seconds
+[2024-04-28T20:48:47.513-0300] {processor.py:161} INFO - Started process (PID=9732) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:48:47.519-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:48:47.522-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:48:47.521-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:48:47.533-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:48:47.557-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:48:47.556-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:48:47.573-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:48:47.573-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:48:47.603-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.101 seconds
+[2024-04-28T20:49:51.150-0300] {processor.py:161} INFO - Started process (PID=9816) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:49:51.156-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:49:51.158-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:49:51.158-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:49:51.169-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:49:51.191-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:49:51.190-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:49:51.208-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:49:51.208-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:49:51.239-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.099 seconds
+[2024-04-28T20:50:59.987-0300] {processor.py:161} INFO - Started process (PID=9930) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:50:59.993-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:50:59.996-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:50:59.995-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:51:00.008-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:51:00.031-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:51:00.031-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:51:00.048-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:51:00.048-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:51:00.079-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.105 seconds
+[2024-04-28T20:52:38.602-0300] {processor.py:161} INFO - Started process (PID=10037) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:52:38.608-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:52:38.611-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:52:38.610-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:52:38.621-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:52:38.643-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:52:38.643-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:52:38.661-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:52:38.660-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:52:38.691-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.100 seconds
+[2024-04-28T20:53:56.236-0300] {processor.py:161} INFO - Started process (PID=10166) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:53:56.238-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:53:56.243-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:53:56.242-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:53:56.269-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:53:56.308-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:53:56.307-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:53:56.341-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:53:56.340-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:53:56.394-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.175 seconds
+[2024-04-28T20:54:59.789-0300] {processor.py:161} INFO - Started process (PID=10245) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:54:59.790-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:54:59.794-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:54:59.793-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:54:59.808-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:54:59.832-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:54:59.831-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:54:59.850-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:54:59.849-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:54:59.881-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.103 seconds
+[2024-04-28T20:56:08.852-0300] {processor.py:161} INFO - Started process (PID=10333) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:56:08.858-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:56:08.861-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:56:08.860-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:56:08.874-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:56:08.897-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:56:08.897-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:56:08.915-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:56:08.914-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:56:08.945-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.105 seconds
+[2024-04-28T20:57:11.021-0300] {processor.py:161} INFO - Started process (PID=10543) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:57:11.023-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:57:11.027-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:57:11.026-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:57:11.043-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:57:11.076-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:57:11.076-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:57:11.100-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:57:11.100-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:57:11.157-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.151 seconds
+[2024-04-28T20:58:15.800-0300] {processor.py:161} INFO - Started process (PID=10660) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:58:15.802-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:58:15.813-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:58:15.811-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:58:15.831-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:58:15.856-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:58:15.856-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:58:15.874-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:58:15.874-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:58:15.907-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.121 seconds
+[2024-04-28T20:59:24.853-0300] {processor.py:161} INFO - Started process (PID=10773) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:59:24.854-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-04-28T20:59:24.858-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:59:24.857-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:59:24.868-0300] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2024-04-28T20:59:24.891-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:59:24.890-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-28T20:59:24.908-0300] {logging_mixin.py:188} INFO - [2024-04-28T20:59:24.908-0300] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-04-28T20:59:25.143-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.301 seconds

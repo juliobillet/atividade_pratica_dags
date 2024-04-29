@@ -1,0 +1,216 @@
+[2024-04-26T05:28:06.159-0300] {processor.py:161} INFO - Started process (PID=9526) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:28:06.161-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:28:06.164-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:06.163-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:28:06.184-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:28:06.422-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:06.421-0300] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_xcom_args_with_operators
+[2024-04-26T05:28:06.437-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:06.437-0300] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_xcom_args_with_operators
+[2024-04-26T05:28:06.449-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:06.448-0300] {override.py:1829} INFO - Created Permission View: can read on DAG:example_xcom_args_with_operators
+[2024-04-26T05:28:06.474-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:06.473-0300] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_xcom_args
+[2024-04-26T05:28:06.488-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:06.487-0300] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_xcom_args
+[2024-04-26T05:28:06.502-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:06.501-0300] {override.py:1829} INFO - Created Permission View: can read on DAG:example_xcom_args
+[2024-04-26T05:28:06.503-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:06.503-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:28:06.525-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:06.524-0300] {dag.py:3118} INFO - Creating ORM DAG for example_xcom_args_with_operators
+[2024-04-26T05:28:06.526-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:06.526-0300] {dag.py:3118} INFO - Creating ORM DAG for example_xcom_args
+[2024-04-26T05:28:06.527-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:06.527-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:28:06.529-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:06.528-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:28:06.560-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.423 seconds
+[2024-04-26T05:29:15.121-0300] {processor.py:161} INFO - Started process (PID=9618) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:29:15.123-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:29:15.127-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:29:15.126-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:29:15.157-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:29:15.216-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:29:15.216-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:29:15.242-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:29:15.242-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:29:15.247-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:29:15.247-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:29:15.285-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.181 seconds
+[2024-04-26T05:30:15.866-0300] {processor.py:161} INFO - Started process (PID=9679) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:30:15.871-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:30:15.874-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:30:15.873-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:30:15.890-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:30:15.916-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:30:15.916-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:30:15.932-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:30:15.932-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:30:15.937-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:30:15.937-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:30:15.962-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.107 seconds
+[2024-04-26T05:31:11.061-0300] {processor.py:161} INFO - Started process (PID=9729) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:31:11.067-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:31:11.069-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:31:11.069-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:31:11.083-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:31:11.109-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:31:11.109-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:31:11.125-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:31:11.125-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:31:11.130-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:31:11.130-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:31:11.155-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.103 seconds
+[2024-04-26T05:32:08.878-0300] {processor.py:161} INFO - Started process (PID=9786) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:32:08.880-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:32:08.883-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:32:08.883-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:32:08.899-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:32:08.925-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:32:08.925-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:32:08.942-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:32:08.942-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:32:08.947-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:32:08.947-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:32:08.972-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.105 seconds
+[2024-04-26T05:33:11.359-0300] {processor.py:161} INFO - Started process (PID=9841) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:33:11.365-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:33:11.368-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:33:11.367-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:33:11.383-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:33:11.411-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:33:11.410-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:33:11.427-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:33:11.427-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:33:11.432-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:33:11.432-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:33:11.458-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.110 seconds
+[2024-04-26T05:34:11.262-0300] {processor.py:161} INFO - Started process (PID=9911) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:34:11.268-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:34:11.271-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:34:11.271-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:34:11.286-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:34:11.313-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:34:11.313-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:34:11.332-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:34:11.331-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:34:11.336-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:34:11.336-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:34:11.363-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.111 seconds
+[2024-04-26T05:35:05.320-0300] {processor.py:161} INFO - Started process (PID=9963) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:35:05.326-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:35:05.328-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:35:05.328-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:35:05.342-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:35:05.369-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:35:05.369-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:35:05.385-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:35:05.385-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:35:05.390-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:35:05.389-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:35:05.417-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.106 seconds
+[2024-04-26T05:36:01.870-0300] {processor.py:161} INFO - Started process (PID=10013) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:36:01.876-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:36:01.879-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:36:01.878-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:36:01.894-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:36:01.922-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:36:01.922-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:36:01.939-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:36:01.938-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:36:01.944-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:36:01.943-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:36:01.971-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.111 seconds
+[2024-04-26T05:36:56.318-0300] {processor.py:161} INFO - Started process (PID=10063) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:36:56.323-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:36:56.326-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:36:56.325-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:36:56.340-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:36:56.370-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:36:56.370-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:36:56.387-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:36:56.387-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:36:56.392-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:36:56.392-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:36:56.420-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.112 seconds
+[2024-04-26T05:37:51.582-0300] {processor.py:161} INFO - Started process (PID=10118) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:37:51.588-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:37:51.591-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:37:51.590-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:37:51.606-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:37:51.633-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:37:51.633-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:37:51.649-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:37:51.649-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:37:51.654-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:37:51.654-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:37:51.680-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.109 seconds
+[2024-04-26T05:38:52.803-0300] {processor.py:161} INFO - Started process (PID=10171) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:38:52.808-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:38:52.811-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:38:52.810-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:38:52.826-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:38:52.854-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:38:52.853-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:38:52.870-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:38:52.869-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:38:52.875-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:38:52.874-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:38:52.901-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.109 seconds
+[2024-04-26T05:39:52.000-0300] {processor.py:161} INFO - Started process (PID=10255) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:39:52.006-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:39:52.008-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:39:52.008-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:39:52.021-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:39:52.046-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:39:52.046-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:39:52.063-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:39:52.062-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:39:52.068-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:39:52.068-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:39:52.096-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.105 seconds
+[2024-04-26T05:40:53.340-0300] {processor.py:161} INFO - Started process (PID=10312) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:40:53.345-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:40:53.348-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:40:53.347-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:40:53.363-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:40:53.392-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:40:53.391-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:40:53.411-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:40:53.410-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:40:53.415-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:40:53.415-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:40:53.443-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.114 seconds
+[2024-04-26T05:41:52.218-0300] {processor.py:161} INFO - Started process (PID=10364) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:41:52.224-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:41:52.227-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:41:52.226-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:41:52.242-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:41:52.269-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:41:52.269-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:41:52.286-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:41:52.286-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:41:52.291-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:41:52.291-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:41:52.322-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.114 seconds
+[2024-04-26T05:42:57.652-0300] {processor.py:161} INFO - Started process (PID=10420) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:42:57.658-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:42:57.660-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:42:57.660-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:42:57.674-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:42:57.700-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:42:57.699-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:42:57.717-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:42:57.716-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:42:57.721-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:42:57.721-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:42:57.747-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.111 seconds
+[2024-04-26T05:43:55.863-0300] {processor.py:161} INFO - Started process (PID=10474) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:43:55.869-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:43:55.872-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:43:55.871-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:43:55.886-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:43:55.912-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:43:55.912-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:43:55.928-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:43:55.928-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:43:55.933-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:43:55.933-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:43:55.960-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.107 seconds
+[2024-04-26T05:44:49.248-0300] {processor.py:161} INFO - Started process (PID=10524) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:44:49.254-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:44:49.256-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:44:49.256-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:44:49.271-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:44:49.297-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:44:49.297-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:44:49.314-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:44:49.314-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:44:49.319-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:44:49.319-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:44:49.345-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.112 seconds
+[2024-04-26T05:45:48.714-0300] {processor.py:161} INFO - Started process (PID=10579) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:45:48.719-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:45:48.723-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:45:48.722-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:45:48.737-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:45:48.764-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:45:48.763-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:45:48.780-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:45:48.780-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:45:48.785-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:45:48.784-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:45:48.812-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.112 seconds
+[2024-04-26T05:46:47.757-0300] {processor.py:161} INFO - Started process (PID=10632) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:46:47.763-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:46:47.766-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:46:47.765-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:46:47.781-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:46:47.808-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:46:47.808-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:46:47.824-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:46:47.824-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:46:47.829-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:46:47.829-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:46:47.855-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.108 seconds
+[2024-04-26T05:47:42.702-0300] {processor.py:161} INFO - Started process (PID=10702) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:47:42.707-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:47:42.710-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:47:42.709-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:47:42.725-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:47:42.755-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:47:42.754-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:47:42.779-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:47:42.778-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:47:42.785-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:47:42.785-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:47:42.812-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.121 seconds
+[2024-04-26T05:48:35.951-0300] {processor.py:161} INFO - Started process (PID=10770) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:48:35.956-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:48:35.958-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:48:35.958-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:48:35.971-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:48:35.997-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:48:35.996-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:48:36.013-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:48:36.013-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:48:36.018-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:48:36.018-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:48:36.044-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.102 seconds
+[2024-04-26T05:49:40.559-0300] {processor.py:161} INFO - Started process (PID=10862) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:49:40.566-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:49:40.571-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:49:40.569-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:49:40.588-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:49:40.625-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:49:40.625-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:49:40.646-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:49:40.645-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:49:40.653-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:49:40.652-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:49:40.691-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.157 seconds
+[2024-04-26T05:50:57.969-0300] {processor.py:161} INFO - Started process (PID=10961) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:50:57.976-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:50:57.982-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:50:57.981-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:50:58.009-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:50:58.065-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:50:58.065-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:50:58.094-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:50:58.093-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:50:58.101-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:50:58.100-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:50:58.151-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.193 seconds
+[2024-04-26T05:51:46.401-0300] {processor.py:161} INFO - Started process (PID=11007) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:51:46.407-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:51:46.409-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:51:46.409-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:51:46.428-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:51:46.462-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:51:46.461-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:51:46.483-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:51:46.482-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:51:46.492-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:51:46.491-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:51:46.525-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.134 seconds
+[2024-04-26T05:52:44.734-0300] {processor.py:161} INFO - Started process (PID=11061) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:52:44.741-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-26T05:52:44.746-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:52:44.745-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:52:44.765-0300] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-26T05:52:44.800-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:52:44.800-0300] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-26T05:52:44.820-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:52:44.820-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-26T05:52:44.826-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:52:44.825-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-26T05:52:44.868-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.146 seconds

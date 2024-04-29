@@ -1,0 +1,144 @@
+[2024-04-26T05:29:03.743-0300] {processor.py:161} INFO - Started process (PID=9603) to work on /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:29:03.744-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-04-26T05:29:03.747-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:29:03.746-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:29:03.766-0300] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:29:03.920-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:29:03.917-0300] {override.py:1829} INFO - Created Permission View: can edit on DAG:hello_world_dag
+[2024-04-26T05:29:03.950-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:29:03.949-0300] {override.py:1829} INFO - Created Permission View: can delete on DAG:hello_world_dag
+[2024-04-26T05:29:03.963-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:29:03.962-0300] {override.py:1829} INFO - Created Permission View: can read on DAG:hello_world_dag
+[2024-04-26T05:29:03.963-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:29:03.963-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:29:03.978-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:29:03.977-0300] {dag.py:3118} INFO - Creating ORM DAG for hello_world_dag
+[2024-04-26T05:29:03.993-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:29:03.993-0300] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-04-26 07:00:00+00:00, run_after=2024-04-26 08:00:00+00:00
+[2024-04-26T05:29:04.017-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/dags/hello_world_dag.py took 0.284 seconds
+[2024-04-26T05:30:10.271-0300] {processor.py:161} INFO - Started process (PID=9674) to work on /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:30:10.277-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-04-26T05:30:10.280-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:30:10.279-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:30:10.294-0300] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:30:10.317-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:30:10.317-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:30:10.348-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:30:10.347-0300] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-04-26 07:00:00+00:00, run_after=2024-04-26 08:00:00+00:00
+[2024-04-26T05:30:10.386-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/dags/hello_world_dag.py took 0.125 seconds
+[2024-04-26T05:31:35.064-0300] {processor.py:161} INFO - Started process (PID=9751) to work on /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:31:35.070-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-04-26T05:31:35.072-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:31:35.072-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:31:35.084-0300] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:31:35.105-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:31:35.105-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:31:35.134-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:31:35.133-0300] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-04-26 07:00:00+00:00, run_after=2024-04-26 08:00:00+00:00
+[2024-04-26T05:31:35.161-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/dags/hello_world_dag.py took 0.106 seconds
+[2024-04-26T05:33:05.106-0300] {processor.py:161} INFO - Started process (PID=9836) to work on /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:33:05.112-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-04-26T05:33:05.114-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:33:05.114-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:33:05.126-0300] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:33:05.146-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:33:05.146-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:33:05.175-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:33:05.175-0300] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-04-26 07:00:00+00:00, run_after=2024-04-26 08:00:00+00:00
+[2024-04-26T05:33:05.210-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/dags/hello_world_dag.py took 0.113 seconds
+[2024-04-26T05:34:33.318-0300] {processor.py:161} INFO - Started process (PID=9931) to work on /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:34:33.324-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-04-26T05:34:33.327-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:34:33.326-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:34:33.340-0300] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:34:33.362-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:34:33.361-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:34:33.398-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:34:33.397-0300] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-04-26 07:00:00+00:00, run_after=2024-04-26 08:00:00+00:00
+[2024-04-26T05:34:33.429-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/dags/hello_world_dag.py took 0.121 seconds
+[2024-04-26T05:35:56.026-0300] {processor.py:161} INFO - Started process (PID=10007) to work on /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:35:56.031-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-04-26T05:35:56.034-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:35:56.033-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:35:56.047-0300] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:35:56.069-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:35:56.069-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:35:56.100-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:35:56.100-0300] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-04-26 07:00:00+00:00, run_after=2024-04-26 08:00:00+00:00
+[2024-04-26T05:35:56.133-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/dags/hello_world_dag.py took 0.118 seconds
+[2024-04-26T05:37:18.221-0300] {processor.py:161} INFO - Started process (PID=10086) to work on /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:37:18.222-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-04-26T05:37:18.225-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:37:18.224-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:37:18.235-0300] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:37:18.255-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:37:18.254-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:37:18.284-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:37:18.284-0300] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-04-26 07:00:00+00:00, run_after=2024-04-26 08:00:00+00:00
+[2024-04-26T05:37:18.312-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/dags/hello_world_dag.py took 0.099 seconds
+[2024-04-26T05:38:45.097-0300] {processor.py:161} INFO - Started process (PID=10164) to work on /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:38:45.103-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-04-26T05:38:45.107-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:38:45.106-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:38:45.121-0300] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:38:45.142-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:38:45.142-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:38:45.172-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:38:45.172-0300] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-04-26 07:00:00+00:00, run_after=2024-04-26 08:00:00+00:00
+[2024-04-26T05:38:45.201-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/dags/hello_world_dag.py took 0.114 seconds
+[2024-04-26T05:39:46.493-0300] {processor.py:161} INFO - Started process (PID=10249) to work on /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:39:46.503-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-04-26T05:39:46.506-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:39:46.506-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:39:46.518-0300] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:39:46.537-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:39:46.537-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:39:46.570-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:39:46.569-0300] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-04-26 07:00:00+00:00, run_after=2024-04-26 08:00:00+00:00
+[2024-04-26T05:39:46.604-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/dags/hello_world_dag.py took 0.125 seconds
+[2024-04-26T05:40:45.689-0300] {processor.py:161} INFO - Started process (PID=10305) to work on /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:40:45.695-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-04-26T05:40:45.698-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:40:45.697-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:40:45.710-0300] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:40:45.730-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:40:45.729-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:40:45.759-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:40:45.759-0300] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-04-26 07:00:00+00:00, run_after=2024-04-26 08:00:00+00:00
+[2024-04-26T05:40:45.788-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/dags/hello_world_dag.py took 0.109 seconds
+[2024-04-26T05:41:45.843-0300] {processor.py:161} INFO - Started process (PID=10359) to work on /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:41:45.849-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-04-26T05:41:45.851-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:41:45.850-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:41:45.863-0300] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:41:45.884-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:41:45.884-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:41:45.914-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:41:45.914-0300] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-04-26 07:00:00+00:00, run_after=2024-04-26 08:00:00+00:00
+[2024-04-26T05:41:45.942-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/dags/hello_world_dag.py took 0.109 seconds
+[2024-04-26T05:42:50.399-0300] {processor.py:161} INFO - Started process (PID=10413) to work on /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:42:50.405-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-04-26T05:42:50.408-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:42:50.407-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:42:50.421-0300] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:42:50.443-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:42:50.443-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:42:50.473-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:42:50.473-0300] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-04-26 07:00:00+00:00, run_after=2024-04-26 08:00:00+00:00
+[2024-04-26T05:42:50.511-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/dags/hello_world_dag.py took 0.122 seconds
+[2024-04-26T05:43:49.035-0300] {processor.py:161} INFO - Started process (PID=10466) to work on /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:43:49.041-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-04-26T05:43:49.043-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:43:49.043-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:43:49.056-0300] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:43:49.078-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:43:49.077-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:43:49.107-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:43:49.107-0300] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-04-26 07:00:00+00:00, run_after=2024-04-26 08:00:00+00:00
+[2024-04-26T05:43:49.137-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/dags/hello_world_dag.py took 0.113 seconds
+[2024-04-26T05:45:10.795-0300] {processor.py:161} INFO - Started process (PID=10543) to work on /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:45:10.801-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-04-26T05:45:10.803-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:45:10.803-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:45:10.817-0300] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:45:10.838-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:45:10.838-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:45:10.867-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:45:10.867-0300] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-04-26 07:00:00+00:00, run_after=2024-04-26 08:00:00+00:00
+[2024-04-26T05:45:10.904-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/dags/hello_world_dag.py took 0.120 seconds
+[2024-04-26T05:46:11.078-0300] {processor.py:161} INFO - Started process (PID=10598) to work on /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:46:11.084-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-04-26T05:46:11.086-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:46:11.086-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:46:11.100-0300] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:46:11.121-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:46:11.121-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:46:11.151-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:46:11.150-0300] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-04-26 07:00:00+00:00, run_after=2024-04-26 08:00:00+00:00
+[2024-04-26T05:46:11.180-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/dags/hello_world_dag.py took 0.112 seconds
+[2024-04-26T05:47:07.766-0300] {processor.py:161} INFO - Started process (PID=10664) to work on /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:47:07.772-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-04-26T05:47:07.775-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:47:07.774-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:47:07.788-0300] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:47:07.809-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:47:07.809-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:47:07.839-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:47:07.838-0300] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-04-26 07:00:00+00:00, run_after=2024-04-26 08:00:00+00:00
+[2024-04-26T05:47:07.867-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/dags/hello_world_dag.py took 0.111 seconds
+[2024-04-26T05:48:28.652-0300] {processor.py:161} INFO - Started process (PID=10763) to work on /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:48:28.658-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-04-26T05:48:28.660-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:48:28.660-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:48:28.671-0300] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:48:28.690-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:48:28.690-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:48:28.720-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:48:28.720-0300] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-04-26 07:00:00+00:00, run_after=2024-04-26 08:00:00+00:00
+[2024-04-26T05:48:28.749-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/dags/hello_world_dag.py took 0.105 seconds
+[2024-04-26T05:49:32.357-0300] {processor.py:161} INFO - Started process (PID=10852) to work on /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:49:32.362-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-04-26T05:49:32.365-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:49:32.364-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:49:32.376-0300] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:49:32.395-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:49:32.395-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:49:32.425-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:49:32.425-0300] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-04-26 07:00:00+00:00, run_after=2024-04-26 08:00:00+00:00
+[2024-04-26T05:49:32.456-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/dags/hello_world_dag.py took 0.107 seconds
+[2024-04-26T05:50:44.933-0300] {processor.py:161} INFO - Started process (PID=10947) to work on /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:50:44.935-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-04-26T05:50:44.938-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:50:44.937-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:50:44.955-0300] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:50:44.987-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:50:44.987-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:50:45.035-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:50:45.035-0300] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-04-26 08:00:00+00:00, run_after=2024-04-26 09:00:00+00:00
+[2024-04-26T05:50:45.123-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/dags/hello_world_dag.py took 0.206 seconds
+[2024-04-26T05:52:14.178-0300] {processor.py:161} INFO - Started process (PID=11031) to work on /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:52:14.184-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/dags/hello_world_dag.py for tasks to queue
+[2024-04-26T05:52:14.188-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:52:14.187-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:52:14.206-0300] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /home/athlon/projects/airflow/dags/hello_world_dag.py
+[2024-04-26T05:52:14.230-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:52:14.229-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:52:14.274-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:52:14.274-0300] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-04-26 08:00:00+00:00, run_after=2024-04-26 09:00:00+00:00
+[2024-04-26T05:52:14.312-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/dags/hello_world_dag.py took 0.146 seconds

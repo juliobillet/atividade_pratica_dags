@@ -1,0 +1,179 @@
+[2024-04-26T05:28:18.506-0300] {processor.py:161} INFO - Started process (PID=9537) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:28:18.507-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-26T05:28:18.509-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:18.508-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:28:18.519-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:28:18.707-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:18.706-0300] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2024-04-26T05:28:18.725-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:18.725-0300] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2024-04-26T05:28:18.738-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:18.738-0300] {override.py:1829} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2024-04-26T05:28:18.739-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:18.739-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:28:18.760-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:18.759-0300] {dag.py:3118} INFO - Creating ORM DAG for example_skip_dag
+[2024-04-26T05:28:18.780-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:18.779-0300] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-25 00:00:00+00:00, run_after=2024-04-26 00:00:00+00:00
+[2024-04-26T05:28:18.832-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.334 seconds
+[2024-04-26T05:29:26.444-0300] {processor.py:161} INFO - Started process (PID=9633) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:29:26.445-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-26T05:29:26.448-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:29:26.447-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:29:26.460-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:29:26.490-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:29:26.489-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:29:26.516-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:29:26.516-0300] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-25 00:00:00+00:00, run_after=2024-04-26 00:00:00+00:00
+[2024-04-26T05:29:26.546-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.115 seconds
+[2024-04-26T05:30:26.299-0300] {processor.py:161} INFO - Started process (PID=9688) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:30:26.304-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-26T05:30:26.307-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:30:26.306-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:30:26.318-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:30:26.343-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:30:26.343-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:30:26.370-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:30:26.370-0300] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-25 00:00:00+00:00, run_after=2024-04-26 00:00:00+00:00
+[2024-04-26T05:30:26.400-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.111 seconds
+[2024-04-26T05:31:20.366-0300] {processor.py:161} INFO - Started process (PID=9738) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:31:20.372-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-26T05:31:20.374-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:31:20.374-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:31:20.386-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:31:20.412-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:31:20.412-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:31:20.439-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:31:20.439-0300] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-25 00:00:00+00:00, run_after=2024-04-26 00:00:00+00:00
+[2024-04-26T05:31:20.469-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.114 seconds
+[2024-04-26T05:32:20.401-0300] {processor.py:161} INFO - Started process (PID=9797) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:32:20.407-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-26T05:32:20.409-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:32:20.408-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:32:20.419-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:32:20.442-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:32:20.442-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:32:20.469-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:32:20.469-0300] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-25 00:00:00+00:00, run_after=2024-04-26 00:00:00+00:00
+[2024-04-26T05:32:20.499-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.107 seconds
+[2024-04-26T05:33:21.646-0300] {processor.py:161} INFO - Started process (PID=9850) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:33:21.652-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-26T05:33:21.655-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:33:21.654-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:33:21.666-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:33:21.691-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:33:21.691-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:33:21.718-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:33:21.717-0300] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-25 00:00:00+00:00, run_after=2024-04-26 00:00:00+00:00
+[2024-04-26T05:33:21.877-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.241 seconds
+[2024-04-26T05:34:20.581-0300] {processor.py:161} INFO - Started process (PID=9920) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:34:20.587-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-26T05:34:20.590-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:34:20.589-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:34:20.601-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:34:20.627-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:34:20.627-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:34:20.654-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:34:20.653-0300] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-25 00:00:00+00:00, run_after=2024-04-26 00:00:00+00:00
+[2024-04-26T05:34:20.684-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.113 seconds
+[2024-04-26T05:35:16.801-0300] {processor.py:161} INFO - Started process (PID=9972) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:35:16.806-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-26T05:35:16.809-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:35:16.808-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:35:16.819-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:35:16.846-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:35:16.845-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:35:16.872-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:35:16.872-0300] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-25 00:00:00+00:00, run_after=2024-04-26 00:00:00+00:00
+[2024-04-26T05:35:16.909-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.120 seconds
+[2024-04-26T05:36:11.213-0300] {processor.py:161} INFO - Started process (PID=10022) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:36:11.218-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-26T05:36:11.220-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:36:11.220-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:36:11.230-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:36:11.255-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:36:11.254-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:36:11.284-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:36:11.284-0300] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-25 00:00:00+00:00, run_after=2024-04-26 00:00:00+00:00
+[2024-04-26T05:36:11.318-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.115 seconds
+[2024-04-26T05:37:05.815-0300] {processor.py:161} INFO - Started process (PID=10073) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:37:05.817-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-26T05:37:05.820-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:37:05.819-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:37:05.831-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:37:05.856-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:37:05.855-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:37:05.885-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:37:05.885-0300] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-25 00:00:00+00:00, run_after=2024-04-26 00:00:00+00:00
+[2024-04-26T05:37:05.915-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.112 seconds
+[2024-04-26T05:38:00.302-0300] {processor.py:161} INFO - Started process (PID=10128) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:38:00.304-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-26T05:38:00.307-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:38:00.306-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:38:00.318-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:38:00.346-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:38:00.346-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:38:00.379-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:38:00.379-0300] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-25 00:00:00+00:00, run_after=2024-04-26 00:00:00+00:00
+[2024-04-26T05:38:00.408-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.116 seconds
+[2024-04-26T05:39:03.259-0300] {processor.py:161} INFO - Started process (PID=10183) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:39:03.264-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-26T05:39:03.267-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:39:03.266-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:39:03.278-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:39:03.304-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:39:03.304-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:39:03.333-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:39:03.333-0300] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-25 00:00:00+00:00, run_after=2024-04-26 00:00:00+00:00
+[2024-04-26T05:39:03.363-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.115 seconds
+[2024-04-26T05:40:03.124-0300] {processor.py:161} INFO - Started process (PID=10264) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:40:03.130-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-26T05:40:03.133-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:40:03.132-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:40:03.143-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:40:03.166-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:40:03.166-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:40:03.193-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:40:03.193-0300] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-25 00:00:00+00:00, run_after=2024-04-26 00:00:00+00:00
+[2024-04-26T05:40:03.223-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.108 seconds
+[2024-04-26T05:41:03.767-0300] {processor.py:161} INFO - Started process (PID=10321) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:41:03.772-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-26T05:41:03.775-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:41:03.774-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:41:03.789-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:41:03.820-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:41:03.819-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:41:03.846-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:41:03.846-0300] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-25 00:00:00+00:00, run_after=2024-04-26 00:00:00+00:00
+[2024-04-26T05:41:03.878-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.123 seconds
+[2024-04-26T05:42:02.523-0300] {processor.py:161} INFO - Started process (PID=10373) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:42:02.529-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-26T05:42:02.532-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:42:02.531-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:42:02.542-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:42:02.573-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:42:02.573-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:42:02.601-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:42:02.601-0300] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-25 00:00:00+00:00, run_after=2024-04-26 00:00:00+00:00
+[2024-04-26T05:42:02.631-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.119 seconds
+[2024-04-26T05:43:08.163-0300] {processor.py:161} INFO - Started process (PID=10429) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:43:08.169-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-26T05:43:08.171-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:43:08.171-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:43:08.183-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:43:08.209-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:43:08.208-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:43:08.236-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:43:08.236-0300] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-25 00:00:00+00:00, run_after=2024-04-26 00:00:00+00:00
+[2024-04-26T05:43:08.267-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.115 seconds
+[2024-04-26T05:44:05.050-0300] {processor.py:161} INFO - Started process (PID=10484) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:44:05.056-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-26T05:44:05.059-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:44:05.058-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:44:05.071-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:44:05.096-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:44:05.096-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:44:05.124-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:44:05.124-0300] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-25 00:00:00+00:00, run_after=2024-04-26 00:00:00+00:00
+[2024-04-26T05:44:05.154-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.116 seconds
+[2024-04-26T05:44:58.881-0300] {processor.py:161} INFO - Started process (PID=10533) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:44:58.887-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-26T05:44:58.890-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:44:58.889-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:44:58.900-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:44:58.925-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:44:58.925-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:44:58.952-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:44:58.951-0300] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-25 00:00:00+00:00, run_after=2024-04-26 00:00:00+00:00
+[2024-04-26T05:44:58.981-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.110 seconds
+[2024-04-26T05:45:58.247-0300] {processor.py:161} INFO - Started process (PID=10588) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:45:58.248-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-26T05:45:58.252-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:45:58.251-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:45:58.262-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:45:58.289-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:45:58.288-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:45:58.320-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:45:58.320-0300] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-25 00:00:00+00:00, run_after=2024-04-26 00:00:00+00:00
+[2024-04-26T05:45:58.352-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.116 seconds
+[2024-04-26T05:46:58.083-0300] {processor.py:161} INFO - Started process (PID=10641) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:46:58.089-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-26T05:46:58.092-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:46:58.091-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:46:58.101-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:46:58.126-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:46:58.126-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:46:58.153-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:46:58.153-0300] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-25 00:00:00+00:00, run_after=2024-04-26 00:00:00+00:00
+[2024-04-26T05:46:58.183-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.108 seconds
+[2024-04-26T05:47:51.983-0300] {processor.py:161} INFO - Started process (PID=10723) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:47:51.989-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-26T05:47:51.992-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:47:51.991-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:47:52.001-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:47:52.024-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:47:52.024-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:47:52.052-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:47:52.051-0300] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-25 00:00:00+00:00, run_after=2024-04-26 00:00:00+00:00
+[2024-04-26T05:47:52.084-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.109 seconds
+[2024-04-26T05:48:46.127-0300] {processor.py:161} INFO - Started process (PID=10790) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:48:46.133-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-26T05:48:46.139-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:48:46.137-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:48:46.153-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:48:46.194-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:48:46.193-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:48:46.242-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:48:46.241-0300] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-25 00:00:00+00:00, run_after=2024-04-26 00:00:00+00:00
+[2024-04-26T05:48:46.310-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.199 seconds
+[2024-04-26T05:49:50.172-0300] {processor.py:161} INFO - Started process (PID=10875) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:49:50.178-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-26T05:49:50.180-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:49:50.180-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:49:50.190-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:49:50.214-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:49:50.213-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:49:50.245-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:49:50.245-0300] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-25 00:00:00+00:00, run_after=2024-04-26 00:00:00+00:00
+[2024-04-26T05:49:50.286-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.122 seconds
+[2024-04-26T05:51:08.691-0300] {processor.py:161} INFO - Started process (PID=10970) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:51:08.697-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-26T05:51:08.702-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:51:08.700-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:51:08.717-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:51:08.755-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:51:08.754-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:51:08.804-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:51:08.803-0300] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-25 00:00:00+00:00, run_after=2024-04-26 00:00:00+00:00
+[2024-04-26T05:51:08.862-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.194 seconds
+[2024-04-26T05:52:27.105-0300] {processor.py:161} INFO - Started process (PID=11044) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:52:27.111-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-04-26T05:52:27.114-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:52:27.113-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:52:27.126-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-04-26T05:52:27.158-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:52:27.157-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:52:27.194-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:52:27.194-0300] {dag.py:3954} INFO - Setting next_dagrun for example_skip_dag to 2024-04-25 00:00:00+00:00, run_after=2024-04-26 00:00:00+00:00
+[2024-04-26T05:52:27.236-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.144 seconds

@@ -1,0 +1,38 @@
+[2024-04-28T21:17:16.565-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-28T21:17:16.586-0300] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: atividade_pratica_dag.share_path manual__2024-04-29T00:16:33.182555+00:00 [queued]>
+[2024-04-28T21:17:16.600-0300] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: atividade_pratica_dag.share_path manual__2024-04-29T00:16:33.182555+00:00 [queued]>
+[2024-04-28T21:17:16.600-0300] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-04-28T21:17:16.625-0300] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): share_path> on 2024-04-29 00:16:33.182555+00:00
+[2024-04-28T21:17:16.633-0300] {standard_task_runner.py:63} INFO - Started process 12348 to run task
+[2024-04-28T21:17:16.639-0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'atividade_pratica_dag', 'share_path', 'manual__2024-04-29T00:16:33.182555+00:00', '--job-id', '42', '--raw', '--subdir', 'DAGS_FOLDER/atividade_pratica_dag.py', '--cfg-path', '/tmp/tmpzm07paj_']
+[2024-04-28T21:17:16.640-0300] {standard_task_runner.py:91} INFO - Job 42: Subtask share_path
+[2024-04-28T21:17:16.690-0300] {task_command.py:426} INFO - Running <TaskInstance: atividade_pratica_dag.share_path manual__2024-04-29T00:16:33.182555+00:00 [running]> on host ath
+[2024-04-28T21:17:16.773-0300] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='atividade_pratica_dag' AIRFLOW_CTX_TASK_ID='share_path' AIRFLOW_CTX_EXECUTION_DATE='2024-04-29T00:16:33.182555+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-29T00:16:33.182555+00:00'
+[2024-04-28T21:17:16.774-0300] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-28T21:17:16.775-0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-28T21:17:16.775-0300] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/athlon/projects/airflow/dags/atividade_pratica_dag.py", line 19, in share_path
+    with open("/data/path.txt", "r") as data:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/data/path.txt'
+[2024-04-28T21:17:16.783-0300] {taskinstance.py:1205} INFO - Marking task as FAILED. dag_id=atividade_pratica_dag, task_id=share_path, execution_date=20240429T001633, start_date=20240429T001716, end_date=20240429T001716
+[2024-04-28T21:17:16.799-0300] {standard_task_runner.py:110} ERROR - Failed to execute job 42 for task share_path ([Errno 2] No such file or directory: '/data/path.txt'; 12348)
+[2024-04-28T21:17:16.810-0300] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-04-28T21:17:16.827-0300] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-28T21:17:16.828-0300] {local_task_job_runner.py:222} INFO - ::endgroup::

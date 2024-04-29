@@ -1,0 +1,165 @@
+[2024-04-26T05:28:55.547-0300] {processor.py:161} INFO - Started process (PID=9589) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:28:55.548-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-26T05:28:55.551-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:55.550-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:28:55.581-0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:28:55.891-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:55.888-0300] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_complex
+[2024-04-26T05:28:55.928-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:55.927-0300] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_complex
+[2024-04-26T05:28:55.948-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:55.947-0300] {override.py:1829} INFO - Created Permission View: can read on DAG:example_complex
+[2024-04-26T05:28:55.950-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:55.949-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:28:55.982-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:55.982-0300] {dag.py:3118} INFO - Creating ORM DAG for example_complex
+[2024-04-26T05:28:55.984-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:55.984-0300] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-26T05:28:56.053-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.520 seconds
+[2024-04-26T05:30:04.317-0300] {processor.py:161} INFO - Started process (PID=9669) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:30:04.323-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-26T05:30:04.325-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:30:04.325-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:30:04.343-0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:30:04.383-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:30:04.383-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:30:04.400-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:30:04.399-0300] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-26T05:30:04.429-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.122 seconds
+[2024-04-26T05:31:02.927-0300] {processor.py:161} INFO - Started process (PID=9721) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:31:02.932-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-26T05:31:02.935-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:31:02.934-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:31:02.961-0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:31:03.000-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:31:03.000-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:31:03.021-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:31:03.020-0300] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-26T05:31:03.050-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.134 seconds
+[2024-04-26T05:32:00.126-0300] {processor.py:161} INFO - Started process (PID=9778) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:32:00.132-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-26T05:32:00.134-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:32:00.134-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:32:00.152-0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:32:00.191-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:32:00.191-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:32:00.207-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:32:00.207-0300] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-26T05:32:00.238-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.119 seconds
+[2024-04-26T05:32:59.827-0300] {processor.py:161} INFO - Started process (PID=9832) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:32:59.833-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-26T05:32:59.835-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:32:59.835-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:32:59.854-0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:32:59.893-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:32:59.893-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:32:59.909-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:32:59.909-0300] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-26T05:32:59.960-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.144 seconds
+[2024-04-26T05:34:01.255-0300] {processor.py:161} INFO - Started process (PID=9901) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:34:01.260-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-26T05:34:01.263-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:34:01.262-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:34:01.282-0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:34:01.322-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:34:01.321-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:34:01.338-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:34:01.338-0300] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-26T05:34:01.368-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.124 seconds
+[2024-04-26T05:34:56.042-0300] {processor.py:161} INFO - Started process (PID=9955) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:34:56.048-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-26T05:34:56.051-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:34:56.050-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:34:56.075-0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:34:56.115-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:34:56.114-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:34:56.131-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:34:56.130-0300] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-26T05:34:56.160-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.128 seconds
+[2024-04-26T05:35:53.986-0300] {processor.py:161} INFO - Started process (PID=10005) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:35:53.992-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-26T05:35:53.995-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:35:53.994-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:35:54.013-0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:35:54.053-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:35:54.053-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:35:54.071-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:35:54.071-0300] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-26T05:35:54.101-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.126 seconds
+[2024-04-26T05:37:15.163-0300] {processor.py:161} INFO - Started process (PID=10083) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:37:15.169-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-26T05:37:15.172-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:37:15.171-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:37:15.190-0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:37:15.230-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:37:15.229-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:37:15.246-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:37:15.245-0300] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-26T05:37:15.276-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.128 seconds
+[2024-04-26T05:38:11.903-0300] {processor.py:161} INFO - Started process (PID=10137) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:38:11.909-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-26T05:38:11.912-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:38:11.911-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:38:11.931-0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:38:11.971-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:38:11.970-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:38:11.987-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:38:11.987-0300] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-26T05:38:12.022-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.129 seconds
+[2024-04-26T05:39:12.828-0300] {processor.py:161} INFO - Started process (PID=10221) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:39:12.834-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-26T05:39:12.837-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:39:12.836-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:39:12.856-0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:39:12.896-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:39:12.895-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:39:12.912-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:39:12.912-0300] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-26T05:39:12.946-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.128 seconds
+[2024-04-26T05:40:12.124-0300] {processor.py:161} INFO - Started process (PID=10277) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:40:12.126-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-26T05:40:12.128-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:40:12.127-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:40:12.144-0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:40:12.182-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:40:12.182-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:40:12.198-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:40:12.198-0300] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-26T05:40:12.233-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.118 seconds
+[2024-04-26T05:41:13.520-0300] {processor.py:161} INFO - Started process (PID=10330) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:41:13.525-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-26T05:41:13.528-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:41:13.527-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:41:13.549-0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:41:13.587-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:41:13.587-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:41:13.603-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:41:13.603-0300] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-26T05:41:13.633-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.123 seconds
+[2024-04-26T05:42:14.136-0300] {processor.py:161} INFO - Started process (PID=10382) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:42:14.141-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-26T05:42:14.144-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:42:14.144-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:42:14.163-0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:42:14.204-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:42:14.203-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:42:14.220-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:42:14.219-0300] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-26T05:42:14.250-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.126 seconds
+[2024-04-26T05:43:18.452-0300] {processor.py:161} INFO - Started process (PID=10438) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:43:18.458-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-26T05:43:18.460-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:43:18.460-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:43:18.479-0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:43:18.519-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:43:18.519-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:43:18.535-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:43:18.535-0300] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-26T05:43:18.566-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.124 seconds
+[2024-04-26T05:44:14.200-0300] {processor.py:161} INFO - Started process (PID=10493) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:44:14.206-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-26T05:44:14.209-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:44:14.208-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:44:14.227-0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:44:14.267-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:44:14.267-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:44:14.284-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:44:14.284-0300] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-26T05:44:14.315-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.125 seconds
+[2024-04-26T05:45:39.328-0300] {processor.py:161} INFO - Started process (PID=10567) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:45:39.333-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-26T05:45:39.336-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:45:39.335-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:45:39.352-0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:45:39.391-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:45:39.390-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:45:39.407-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:45:39.406-0300] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-26T05:45:39.436-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.117 seconds
+[2024-04-26T05:46:38.694-0300] {processor.py:161} INFO - Started process (PID=10623) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:46:38.700-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-26T05:46:38.706-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:46:38.705-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:46:38.733-0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:46:38.773-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:46:38.773-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:46:38.789-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:46:38.789-0300] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-26T05:46:38.820-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.136 seconds
+[2024-04-26T05:47:34.474-0300] {processor.py:161} INFO - Started process (PID=10695) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:47:34.480-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-26T05:47:34.483-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:47:34.482-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:47:34.502-0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:47:34.541-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:47:34.541-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:47:34.557-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:47:34.557-0300] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-26T05:47:34.586-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.123 seconds
+[2024-04-26T05:48:58.898-0300] {processor.py:161} INFO - Started process (PID=10817) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:48:58.904-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-26T05:48:58.907-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:48:58.906-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:48:58.927-0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:48:58.998-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:48:58.998-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:48:59.024-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:48:59.024-0300] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-26T05:48:59.074-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.189 seconds
+[2024-04-26T05:50:00.580-0300] {processor.py:161} INFO - Started process (PID=10902) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:50:00.582-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-26T05:50:00.584-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:50:00.583-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:50:00.602-0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:50:00.651-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:50:00.650-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:50:00.670-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:50:00.670-0300] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-26T05:50:00.710-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.141 seconds
+[2024-04-26T05:51:33.225-0300] {processor.py:161} INFO - Started process (PID=10992) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:51:33.227-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-26T05:51:33.231-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:51:33.230-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:51:33.273-0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:51:33.355-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:51:33.354-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:51:33.394-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:51:33.393-0300] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-26T05:51:33.455-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.252 seconds
+[2024-04-26T05:52:41.494-0300] {processor.py:161} INFO - Started process (PID=11058) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:52:41.500-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-26T05:52:41.504-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:52:41.502-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:52:41.526-0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-04-26T05:52:41.578-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:52:41.578-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:52:41.599-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:52:41.599-0300] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-26T05:52:41.645-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.164 seconds

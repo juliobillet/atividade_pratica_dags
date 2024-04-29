@@ -1,0 +1,47 @@
+[2024-04-28T21:18:00.860-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-28T21:18:00.884-0300] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: atividade_pratica_dag.update_currency manual__2024-04-29T00:16:33.182555+00:00 [queued]>
+[2024-04-28T21:18:00.896-0300] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: atividade_pratica_dag.update_currency manual__2024-04-29T00:16:33.182555+00:00 [queued]>
+[2024-04-28T21:18:00.896-0300] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-04-28T21:18:00.918-0300] {taskinstance.py:2327} INFO - Executing <Task(PostgresOperator): update_currency> on 2024-04-29 00:16:33.182555+00:00
+[2024-04-28T21:18:00.926-0300] {standard_task_runner.py:63} INFO - Started process 12391 to run task
+[2024-04-28T21:18:00.930-0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'atividade_pratica_dag', 'update_currency', 'manual__2024-04-29T00:16:33.182555+00:00', '--job-id', '47', '--raw', '--subdir', 'DAGS_FOLDER/atividade_pratica_dag.py', '--cfg-path', '/tmp/tmpo318sq3q']
+[2024-04-28T21:18:00.931-0300] {standard_task_runner.py:91} INFO - Job 47: Subtask update_currency
+[2024-04-28T21:18:00.981-0300] {task_command.py:426} INFO - Running <TaskInstance: atividade_pratica_dag.update_currency manual__2024-04-29T00:16:33.182555+00:00 [running]> on host ath
+[2024-04-28T21:18:01.094-0300] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='atividade_pratica_dag' AIRFLOW_CTX_TASK_ID='update_currency' AIRFLOW_CTX_EXECUTION_DATE='2024-04-29T00:16:33.182555+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-29T00:16:33.182555+00:00'
+[2024-04-28T21:18:01.096-0300] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-28T21:18:01.097-0300] {sql.py:276} INFO - Executing: UPDATE currency SET currency_amount = currency_amount * 2 WHERE player_id inNone
+[2024-04-28T21:18:01.294-0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-28T21:18:01.300-0300] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/providers/common/sql/operators/sql.py", line 277, in execute
+    hook = self.get_db_hook()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/providers/common/sql/operators/sql.py", line 188, in get_db_hook
+    return self._hook
+           ^^^^^^^^^^
+  File "/usr/lib/python3.11/functools.py", line 1001, in __get__
+    val = self.func(instance)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/providers/common/sql/operators/sql.py", line 150, in _hook
+    conn = BaseHook.get_connection(conn_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/hooks/base.py", line 83, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/models/connection.py", line 519, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `PG_SWORDBLAST` isn't defined
+[2024-04-28T21:18:01.307-0300] {taskinstance.py:1205} INFO - Marking task as FAILED. dag_id=atividade_pratica_dag, task_id=update_currency, execution_date=20240429T001633, start_date=20240429T001800, end_date=20240429T001801
+[2024-04-28T21:18:01.320-0300] {standard_task_runner.py:110} ERROR - Failed to execute job 47 for task update_currency (The conn_id `PG_SWORDBLAST` isn't defined; 12391)
+[2024-04-28T21:18:01.342-0300] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-04-28T21:18:01.359-0300] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-28T21:18:01.360-0300] {local_task_job_runner.py:222} INFO - ::endgroup::

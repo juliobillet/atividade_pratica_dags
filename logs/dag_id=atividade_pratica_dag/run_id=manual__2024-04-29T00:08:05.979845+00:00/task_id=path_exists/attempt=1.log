@@ -1,0 +1,18 @@
+[2024-04-28T21:09:01.471-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-28T21:09:01.508-0300] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: atividade_pratica_dag.path_exists manual__2024-04-29T00:08:05.979845+00:00 [queued]>
+[2024-04-28T21:09:01.529-0300] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: atividade_pratica_dag.path_exists manual__2024-04-29T00:08:05.979845+00:00 [queued]>
+[2024-04-28T21:09:01.529-0300] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-04-28T21:09:01.557-0300] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): path_exists> on 2024-04-29 00:08:05.979845+00:00
+[2024-04-28T21:09:01.569-0300] {standard_task_runner.py:63} INFO - Started process 11635 to run task
+[2024-04-28T21:09:01.574-0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'atividade_pratica_dag', 'path_exists', 'manual__2024-04-29T00:08:05.979845+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/atividade_pratica_dag.py', '--cfg-path', '/tmp/tmp1mdvy3l5']
+[2024-04-28T21:09:01.576-0300] {standard_task_runner.py:91} INFO - Job 29: Subtask path_exists
+[2024-04-28T21:09:01.643-0300] {task_command.py:426} INFO - Running <TaskInstance: atividade_pratica_dag.path_exists manual__2024-04-29T00:08:05.979845+00:00 [running]> on host ath
+[2024-04-28T21:09:01.775-0300] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='atividade_pratica_dag' AIRFLOW_CTX_TASK_ID='path_exists' AIRFLOW_CTX_EXECUTION_DATE='2024-04-29T00:08:05.979845+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-29T00:08:05.979845+00:00'
+[2024-04-28T21:09:01.777-0300] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-28T21:09:01.778-0300] {logging_mixin.py:188} INFO - Caminho de AIRFLOW_HOME encontrado, prosseguindo para a próxima task...
+[2024-04-28T21:09:01.779-0300] {python.py:237} INFO - Done. Returned value was: None
+[2024-04-28T21:09:01.779-0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-28T21:09:01.791-0300] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=atividade_pratica_dag, task_id=path_exists, execution_date=20240429T000805, start_date=20240429T000901, end_date=20240429T000901
+[2024-04-28T21:09:01.833-0300] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-04-28T21:09:01.859-0300] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-28T21:09:01.860-0300] {local_task_job_runner.py:222} INFO - ::endgroup::

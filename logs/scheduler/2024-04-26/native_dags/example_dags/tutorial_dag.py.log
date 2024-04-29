@@ -1,0 +1,179 @@
+[2024-04-26T05:28:13.088-0300] {processor.py:161} INFO - Started process (PID=9531) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:28:13.090-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-26T05:28:13.093-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:13.092-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:28:13.102-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:28:13.294-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:13.293-0300] {override.py:1829} INFO - Created Permission View: can edit on DAG:tutorial_dag
+[2024-04-26T05:28:13.310-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:13.309-0300] {override.py:1829} INFO - Created Permission View: can delete on DAG:tutorial_dag
+[2024-04-26T05:28:13.323-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:13.322-0300] {override.py:1829} INFO - Created Permission View: can read on DAG:tutorial_dag
+[2024-04-26T05:28:13.323-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:13.323-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:28:13.343-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:13.342-0300] {dag.py:3118} INFO - Creating ORM DAG for tutorial_dag
+[2024-04-26T05:28:13.344-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:28:13.344-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-26T05:28:13.381-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.305 seconds
+[2024-04-26T05:29:21.444-0300] {processor.py:161} INFO - Started process (PID=9629) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:29:21.445-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-26T05:29:21.448-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:29:21.448-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:29:21.459-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:29:21.488-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:29:21.488-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:29:21.504-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:29:21.504-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-26T05:29:21.534-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.100 seconds
+[2024-04-26T05:30:21.830-0300] {processor.py:161} INFO - Started process (PID=9684) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:30:21.836-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-26T05:30:21.839-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:30:21.838-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:30:21.848-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:30:21.872-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:30:21.872-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:30:21.889-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:30:21.888-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-26T05:30:21.920-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.100 seconds
+[2024-04-26T05:31:16.366-0300] {processor.py:161} INFO - Started process (PID=9734) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:31:16.371-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-26T05:31:16.374-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:31:16.374-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:31:16.384-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:31:16.408-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:31:16.408-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:31:16.424-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:31:16.423-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-26T05:31:16.452-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.097 seconds
+[2024-04-26T05:32:15.247-0300] {processor.py:161} INFO - Started process (PID=9793) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:32:15.252-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-26T05:32:15.255-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:32:15.254-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:32:15.265-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:32:15.288-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:32:15.288-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:32:15.305-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:32:15.304-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-26T05:32:15.335-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.098 seconds
+[2024-04-26T05:33:16.818-0300] {processor.py:161} INFO - Started process (PID=9846) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:33:16.824-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-26T05:33:16.827-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:33:16.826-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:33:16.836-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:33:16.860-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:33:16.860-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:33:16.876-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:33:16.876-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-26T05:33:16.905-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.097 seconds
+[2024-04-26T05:34:16.543-0300] {processor.py:161} INFO - Started process (PID=9916) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:34:16.548-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-26T05:34:16.551-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:34:16.550-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:34:16.560-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:34:16.585-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:34:16.584-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:34:16.601-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:34:16.601-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-26T05:34:16.632-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.099 seconds
+[2024-04-26T05:35:11.651-0300] {processor.py:161} INFO - Started process (PID=9968) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:35:11.657-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-26T05:35:11.661-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:35:11.660-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:35:11.669-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:35:11.693-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:35:11.693-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:35:11.709-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:35:11.709-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-26T05:35:11.743-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.102 seconds
+[2024-04-26T05:36:06.778-0300] {processor.py:161} INFO - Started process (PID=10018) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:36:06.784-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-26T05:36:06.787-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:36:06.787-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:36:06.795-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:36:06.819-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:36:06.819-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:36:06.835-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:36:06.835-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-26T05:36:06.864-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.096 seconds
+[2024-04-26T05:37:01.515-0300] {processor.py:161} INFO - Started process (PID=10068) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:37:01.521-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-26T05:37:01.524-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:37:01.523-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:37:01.532-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:37:01.554-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:37:01.554-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:37:01.571-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:37:01.571-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-26T05:37:01.600-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.096 seconds
+[2024-04-26T05:37:55.541-0300] {processor.py:161} INFO - Started process (PID=10123) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:37:55.546-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-26T05:37:55.549-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:37:55.548-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:37:55.557-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:37:55.581-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:37:55.581-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:37:55.597-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:37:55.597-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-26T05:37:55.627-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.097 seconds
+[2024-04-26T05:38:59.267-0300] {processor.py:161} INFO - Started process (PID=10177) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:38:59.273-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-26T05:38:59.276-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:38:59.276-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:38:59.285-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:38:59.309-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:38:59.309-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:38:59.325-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:38:59.325-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-26T05:38:59.354-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.098 seconds
+[2024-04-26T05:39:58.261-0300] {processor.py:161} INFO - Started process (PID=10260) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:39:58.267-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-26T05:39:58.270-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:39:58.269-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:39:58.278-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:39:58.301-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:39:58.301-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:39:58.317-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:39:58.317-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-26T05:39:58.348-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.097 seconds
+[2024-04-26T05:40:59.776-0300] {processor.py:161} INFO - Started process (PID=10317) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:40:59.782-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-26T05:40:59.785-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:40:59.784-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:40:59.796-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:40:59.821-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:40:59.820-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:40:59.837-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:40:59.836-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-26T05:40:59.867-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.102 seconds
+[2024-04-26T05:41:57.371-0300] {processor.py:161} INFO - Started process (PID=10369) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:41:57.377-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-26T05:41:57.380-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:41:57.379-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:41:57.389-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:41:57.413-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:41:57.413-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:41:57.430-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:41:57.430-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-26T05:41:57.463-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.102 seconds
+[2024-04-26T05:43:03.336-0300] {processor.py:161} INFO - Started process (PID=10425) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:43:03.341-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-26T05:43:03.344-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:43:03.343-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:43:03.354-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:43:03.377-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:43:03.377-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:43:03.395-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:43:03.395-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-26T05:43:03.425-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.100 seconds
+[2024-04-26T05:44:00.579-0300] {processor.py:161} INFO - Started process (PID=10479) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:44:00.580-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-26T05:44:00.583-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:44:00.582-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:44:00.590-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:44:00.611-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:44:00.611-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:44:00.627-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:44:00.627-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-26T05:44:00.660-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.090 seconds
+[2024-04-26T05:44:54.882-0300] {processor.py:161} INFO - Started process (PID=10529) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:44:54.888-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-26T05:44:54.891-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:44:54.890-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:44:54.900-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:44:54.924-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:44:54.924-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:44:54.940-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:44:54.940-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-26T05:44:54.969-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.098 seconds
+[2024-04-26T05:45:54.022-0300] {processor.py:161} INFO - Started process (PID=10584) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:45:54.027-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-26T05:45:54.030-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:45:54.029-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:45:54.038-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:45:54.067-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:45:54.066-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:45:54.088-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:45:54.087-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-26T05:45:54.117-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.104 seconds
+[2024-04-26T05:46:53.502-0300] {processor.py:161} INFO - Started process (PID=10637) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:46:53.508-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-26T05:46:53.511-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:46:53.510-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:46:53.521-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:46:53.551-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:46:53.551-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:46:53.569-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:46:53.569-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-26T05:46:53.599-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.107 seconds
+[2024-04-26T05:47:47.981-0300] {processor.py:161} INFO - Started process (PID=10714) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:47:47.987-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-26T05:47:47.989-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:47:47.988-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:47:47.998-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:47:48.020-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:47:48.020-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:47:48.037-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:47:48.037-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-26T05:47:48.068-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.095 seconds
+[2024-04-26T05:48:41.936-0300] {processor.py:161} INFO - Started process (PID=10779) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:48:41.942-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-26T05:48:41.945-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:48:41.944-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:48:41.955-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:48:41.983-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:48:41.983-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:48:42.016-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:48:42.015-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-26T05:48:42.061-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.137 seconds
+[2024-04-26T05:49:46.277-0300] {processor.py:161} INFO - Started process (PID=10867) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:49:46.284-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-26T05:49:46.287-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:49:46.286-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:49:46.300-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:49:46.332-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:49:46.331-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:49:46.361-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:49:46.360-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-26T05:49:46.403-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.138 seconds
+[2024-04-26T05:51:04.148-0300] {processor.py:161} INFO - Started process (PID=10966) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:51:04.155-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-26T05:51:04.160-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:51:04.158-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:51:04.171-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:51:04.208-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:51:04.208-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:51:04.235-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:51:04.234-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-26T05:51:04.305-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.167 seconds
+[2024-04-26T05:51:51.681-0300] {processor.py:161} INFO - Started process (PID=11012) to work on /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:51:51.687-0300] {processor.py:830} INFO - Processing file /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-04-26T05:51:51.689-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:51:51.688-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:51:51.701-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-04-26T05:51:51.731-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:51:51.731-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-26T05:51:51.752-0300] {logging_mixin.py:188} INFO - [2024-04-26T05:51:51.752-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-04-26T05:51:51.790-0300] {processor.py:183} INFO - Processing /home/athlon/projects/airflow/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.122 seconds
