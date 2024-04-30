@@ -1,0 +1,658 @@
+[2024-04-30T14:36:15.317-0300] {processor.py:161} INFO - Started process (PID=9445) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:36:15.318-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T14:36:15.354-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:36:15.351-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:36:15.826-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:36:18.249-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:36:18.248-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T14:36:18.671-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:36:18.671-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T14:36:19.100-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 3.791 seconds
+[2024-04-30T14:38:00.441-0300] {processor.py:161} INFO - Started process (PID=9538) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:38:00.449-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T14:38:00.453-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:38:00.452-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:38:00.463-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:38:00.481-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:38:00.481-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T14:38:00.495-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:38:00.495-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T14:38:00.538-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.106 seconds
+[2024-04-30T14:39:08.552-0300] {processor.py:161} INFO - Started process (PID=9600) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:39:08.557-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T14:39:08.563-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:39:08.562-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:39:08.637-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:39:08.726-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:39:08.725-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T14:39:08.824-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:39:08.822-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T14:39:08.885-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.352 seconds
+[2024-04-30T14:40:19.912-0300] {processor.py:161} INFO - Started process (PID=9663) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:40:19.921-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T14:40:19.924-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:40:19.923-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:40:19.933-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:40:20.094-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:40:20.084-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T14:40:20.133-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:40:20.133-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T14:40:20.276-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.377 seconds
+[2024-04-30T14:41:38.861-0300] {processor.py:161} INFO - Started process (PID=9800) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:41:38.863-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T14:41:38.869-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:41:38.868-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:41:38.877-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:41:38.896-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:41:38.895-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T14:41:38.910-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:41:38.909-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T14:41:38.954-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.106 seconds
+[2024-04-30T14:42:49.344-0300] {processor.py:161} INFO - Started process (PID=9861) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:42:49.347-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T14:42:49.353-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:42:49.352-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:42:49.360-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:42:49.379-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:42:49.379-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T14:42:49.394-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:42:49.394-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T14:42:49.451-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.117 seconds
+[2024-04-30T14:43:53.124-0300] {processor.py:161} INFO - Started process (PID=9922) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:43:53.129-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T14:43:53.135-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:43:53.134-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:43:53.143-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:43:53.169-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:43:53.168-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T14:43:53.182-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:43:53.182-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T14:43:53.229-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.118 seconds
+[2024-04-30T14:44:56.279-0300] {processor.py:161} INFO - Started process (PID=9983) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:44:56.281-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T14:44:56.284-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:44:56.283-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:44:56.297-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:44:56.322-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:44:56.322-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T14:44:56.337-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:44:56.336-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T14:44:56.385-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.120 seconds
+[2024-04-30T14:46:01.291-0300] {processor.py:161} INFO - Started process (PID=10042) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:46:01.294-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T14:46:01.300-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:46:01.300-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:46:01.312-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:46:01.333-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:46:01.333-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T14:46:01.347-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:46:01.346-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T14:46:01.403-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.120 seconds
+[2024-04-30T14:47:06.796-0300] {processor.py:161} INFO - Started process (PID=10101) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:47:06.805-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T14:47:06.810-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:47:06.808-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:47:06.818-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:47:06.843-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:47:06.843-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T14:47:06.857-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:47:06.857-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T14:47:06.905-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.116 seconds
+[2024-04-30T14:48:14.055-0300] {processor.py:161} INFO - Started process (PID=10168) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:48:14.058-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T14:48:14.063-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:48:14.063-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:48:14.072-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:48:14.101-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:48:14.100-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T14:48:14.122-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:48:14.122-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T14:48:14.169-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.123 seconds
+[2024-04-30T14:49:17.020-0300] {processor.py:161} INFO - Started process (PID=10226) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:49:17.024-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T14:49:17.028-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:49:17.027-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:49:17.043-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:49:17.079-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:49:17.078-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T14:49:17.107-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:49:17.107-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T14:49:17.163-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.156 seconds
+[2024-04-30T14:50:18.433-0300] {processor.py:161} INFO - Started process (PID=10285) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:50:18.437-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T14:50:18.443-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:50:18.443-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:50:18.451-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:50:18.487-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:50:18.487-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T14:50:18.507-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:50:18.507-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T14:50:18.571-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.146 seconds
+[2024-04-30T14:51:23.901-0300] {processor.py:161} INFO - Started process (PID=10343) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:51:23.906-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T14:51:23.910-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:51:23.910-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:51:23.917-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:51:23.936-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:51:23.936-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T14:51:23.950-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:51:23.950-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T14:51:24.003-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.111 seconds
+[2024-04-30T14:52:33.372-0300] {processor.py:161} INFO - Started process (PID=10411) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:52:33.375-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T14:52:33.378-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:52:33.377-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:52:33.389-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:52:33.419-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:52:33.419-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T14:52:33.435-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:52:33.434-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T14:52:33.482-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.124 seconds
+[2024-04-30T14:53:35.239-0300] {processor.py:161} INFO - Started process (PID=10477) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:53:35.250-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T14:53:35.253-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:53:35.253-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:53:35.265-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:53:35.284-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:53:35.284-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T14:53:35.298-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:53:35.298-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T14:53:35.352-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.122 seconds
+[2024-04-30T14:54:42.582-0300] {processor.py:161} INFO - Started process (PID=10539) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:54:42.590-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T14:54:42.592-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:54:42.592-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:54:42.600-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:54:42.632-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:54:42.632-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T14:54:42.645-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:54:42.645-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T14:54:42.701-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.134 seconds
+[2024-04-30T14:55:44.615-0300] {processor.py:161} INFO - Started process (PID=10597) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:55:44.618-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T14:55:44.625-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:55:44.621-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:55:44.637-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:55:44.668-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:55:44.666-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T14:55:44.696-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:55:44.696-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T14:55:44.754-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.150 seconds
+[2024-04-30T14:56:49.792-0300] {processor.py:161} INFO - Started process (PID=10656) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:56:49.798-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T14:56:49.801-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:56:49.801-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:56:49.810-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:56:49.841-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:56:49.840-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T14:56:49.862-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:56:49.861-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T14:56:49.932-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.150 seconds
+[2024-04-30T14:57:55.918-0300] {processor.py:161} INFO - Started process (PID=10721) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:57:55.921-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T14:57:55.923-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:57:55.923-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:57:55.931-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:57:55.959-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:57:55.959-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T14:57:55.973-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:57:55.972-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T14:57:56.019-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.114 seconds
+[2024-04-30T14:59:05.549-0300] {processor.py:161} INFO - Started process (PID=10784) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:59:05.555-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T14:59:05.558-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:59:05.557-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:59:05.566-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T14:59:05.586-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:59:05.585-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T14:59:05.600-0300] {logging_mixin.py:188} INFO - [2024-04-30T14:59:05.599-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T14:59:05.649-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.109 seconds
+[2024-04-30T15:00:08.879-0300] {processor.py:161} INFO - Started process (PID=10844) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:00:08.883-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:00:08.888-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:00:08.888-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:00:08.896-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:00:08.915-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:00:08.915-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:00:08.929-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:00:08.928-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:00:08.974-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.103 seconds
+[2024-04-30T15:01:10.738-0300] {processor.py:161} INFO - Started process (PID=10902) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:01:10.758-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:01:10.776-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:01:10.773-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:01:10.795-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:01:10.832-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:01:10.832-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:01:10.862-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:01:10.862-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:01:11.187-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.495 seconds
+[2024-04-30T15:02:42.776-0300] {processor.py:161} INFO - Started process (PID=11009) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:02:42.779-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:02:42.787-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:02:42.786-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:02:42.805-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:02:42.847-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:02:42.847-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:02:42.873-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:02:42.873-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:02:42.958-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.198 seconds
+[2024-04-30T15:04:05.965-0300] {processor.py:161} INFO - Started process (PID=11088) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:04:05.973-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:04:05.980-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:04:05.979-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:04:05.994-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:04:06.014-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:04:06.014-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:04:06.029-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:04:06.029-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:04:06.077-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.120 seconds
+[2024-04-30T15:05:12.850-0300] {processor.py:161} INFO - Started process (PID=11148) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:05:12.858-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:05:12.863-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:05:12.862-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:05:12.870-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:05:12.901-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:05:12.901-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:05:12.924-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:05:12.924-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:05:12.989-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.147 seconds
+[2024-04-30T15:06:49.428-0300] {processor.py:161} INFO - Started process (PID=11214) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:06:49.435-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:06:49.439-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:06:49.439-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:06:49.447-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:06:49.475-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:06:49.474-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:06:49.495-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:06:49.494-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:06:49.554-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.135 seconds
+[2024-04-30T15:07:58.709-0300] {processor.py:161} INFO - Started process (PID=11282) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:07:58.711-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:07:58.714-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:07:58.713-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:07:58.726-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:07:58.753-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:07:58.753-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:07:58.774-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:07:58.773-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:07:58.826-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.132 seconds
+[2024-04-30T15:09:00.913-0300] {processor.py:161} INFO - Started process (PID=11340) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:09:00.918-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:09:00.928-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:09:00.927-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:09:00.935-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:09:00.954-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:09:00.954-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:09:00.968-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:09:00.967-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:09:01.018-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.113 seconds
+[2024-04-30T15:10:05.317-0300] {processor.py:161} INFO - Started process (PID=11398) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:10:05.321-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:10:05.323-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:10:05.323-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:10:05.331-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:10:05.350-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:10:05.350-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:10:05.365-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:10:05.364-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:10:05.413-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.107 seconds
+[2024-04-30T15:11:07.177-0300] {processor.py:161} INFO - Started process (PID=11458) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:11:07.181-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:11:07.183-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:11:07.182-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:11:07.191-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:11:07.210-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:11:07.209-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:11:07.223-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:11:07.223-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:11:07.275-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.106 seconds
+[2024-04-30T15:12:16.740-0300] {processor.py:161} INFO - Started process (PID=11520) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:12:16.753-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:12:16.758-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:12:16.758-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:12:16.771-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:12:16.797-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:12:16.797-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:12:16.826-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:12:16.826-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:12:16.875-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.149 seconds
+[2024-04-30T15:13:22.434-0300] {processor.py:161} INFO - Started process (PID=11582) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:13:22.436-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:13:22.438-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:13:22.438-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:13:22.446-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:13:22.464-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:13:22.464-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:13:22.479-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:13:22.479-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:13:22.529-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.105 seconds
+[2024-04-30T15:14:25.796-0300] {processor.py:161} INFO - Started process (PID=11639) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:14:25.803-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:14:25.808-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:14:25.808-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:14:25.819-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:14:25.854-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:14:25.854-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:14:25.879-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:14:25.878-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:14:25.932-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.144 seconds
+[2024-04-30T15:15:27.071-0300] {processor.py:161} INFO - Started process (PID=11697) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:15:27.078-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:15:27.084-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:15:27.083-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:15:27.095-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:15:27.124-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:15:27.124-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:15:27.141-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:15:27.141-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:15:27.184-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.121 seconds
+[2024-04-30T15:16:35.020-0300] {processor.py:161} INFO - Started process (PID=11766) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:16:35.022-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:16:35.025-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:16:35.025-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:16:35.035-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:16:35.058-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:16:35.058-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:16:35.076-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:16:35.076-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:16:35.132-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.123 seconds
+[2024-04-30T15:17:41.460-0300] {processor.py:161} INFO - Started process (PID=11835) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:17:41.464-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:17:41.472-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:17:41.471-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:17:41.482-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:17:41.500-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:17:41.500-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:17:41.514-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:17:41.514-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:17:41.560-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.117 seconds
+[2024-04-30T15:18:47.738-0300] {processor.py:161} INFO - Started process (PID=11901) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:18:47.740-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:18:47.748-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:18:47.746-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:18:47.756-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:18:47.782-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:18:47.782-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:18:47.798-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:18:47.798-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:18:47.842-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.112 seconds
+[2024-04-30T15:19:48.031-0300] {processor.py:161} INFO - Started process (PID=11957) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:19:48.033-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:19:48.037-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:19:48.036-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:19:48.050-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:19:48.076-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:19:48.076-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:19:48.100-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:19:48.100-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:19:48.163-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.147 seconds
+[2024-04-30T15:20:55.751-0300] {processor.py:161} INFO - Started process (PID=12018) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:20:55.754-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:20:55.758-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:20:55.757-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:20:55.765-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:20:55.785-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:20:55.784-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:20:55.800-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:20:55.800-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:20:55.856-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.113 seconds
+[2024-04-30T15:22:03.346-0300] {processor.py:161} INFO - Started process (PID=12079) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:22:03.348-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:22:03.353-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:22:03.353-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:22:03.363-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:22:03.390-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:22:03.390-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:22:03.411-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:22:03.411-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:22:03.462-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.134 seconds
+[2024-04-30T15:23:06.439-0300] {processor.py:161} INFO - Started process (PID=12140) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:23:06.442-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:23:06.444-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:23:06.443-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:23:06.459-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:23:06.478-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:23:06.477-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:23:06.491-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:23:06.491-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:23:06.553-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.127 seconds
+[2024-04-30T15:24:15.895-0300] {processor.py:161} INFO - Started process (PID=12213) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:24:15.899-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:24:15.901-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:24:15.901-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:24:15.909-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:24:15.928-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:24:15.928-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:24:15.942-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:24:15.942-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:24:16.003-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.120 seconds
+[2024-04-30T15:25:22.962-0300] {processor.py:161} INFO - Started process (PID=12272) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:25:22.965-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:25:22.968-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:25:22.967-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:25:22.975-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:25:22.995-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:25:22.994-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:25:23.008-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:25:23.008-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:25:23.055-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.103 seconds
+[2024-04-30T15:26:28.639-0300] {processor.py:161} INFO - Started process (PID=12333) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:26:28.642-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:26:28.648-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:26:28.647-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:26:28.659-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:26:28.684-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:26:28.684-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:26:28.699-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:26:28.699-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:26:28.748-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.122 seconds
+[2024-04-30T15:27:29.924-0300] {processor.py:161} INFO - Started process (PID=12392) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:27:29.929-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:27:29.932-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:27:29.932-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:27:29.944-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:27:29.972-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:27:29.971-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:27:29.992-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:27:29.992-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:27:30.062-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.152 seconds
+[2024-04-30T15:28:37.576-0300] {processor.py:161} INFO - Started process (PID=12458) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:28:37.583-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:28:37.586-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:28:37.585-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:28:37.593-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:28:37.639-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:28:37.638-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:28:37.663-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:28:37.663-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:28:37.718-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.153 seconds
+[2024-04-30T15:29:37.656-0300] {processor.py:161} INFO - Started process (PID=12514) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:29:37.665-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:29:37.672-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:29:37.671-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:29:37.687-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:29:37.720-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:29:37.719-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:29:37.743-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:29:37.741-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:29:37.796-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.149 seconds
+[2024-04-30T15:30:45.174-0300] {processor.py:161} INFO - Started process (PID=12574) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:30:45.176-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:30:45.179-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:30:45.178-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:30:45.191-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:30:45.213-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:30:45.212-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:30:45.227-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:30:45.226-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:30:45.281-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.122 seconds
+[2024-04-30T15:31:54.101-0300] {processor.py:161} INFO - Started process (PID=12638) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:31:54.103-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:31:54.111-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:31:54.110-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:31:54.126-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:31:54.161-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:31:54.160-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:31:54.184-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:31:54.183-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:31:54.258-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.165 seconds
+[2024-04-30T15:33:00.332-0300] {processor.py:161} INFO - Started process (PID=12702) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:33:00.338-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:33:00.342-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:33:00.342-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:33:00.350-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:33:00.369-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:33:00.369-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:33:00.383-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:33:00.383-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:33:00.437-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.112 seconds
+[2024-04-30T15:34:08.444-0300] {processor.py:161} INFO - Started process (PID=12762) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:34:08.448-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:34:08.454-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:34:08.453-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:34:08.464-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:34:08.494-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:34:08.493-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:34:08.514-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:34:08.514-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:34:08.568-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.132 seconds
+[2024-04-30T15:35:13.706-0300] {processor.py:161} INFO - Started process (PID=12823) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:35:13.708-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:35:13.711-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:35:13.710-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:35:13.723-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:35:13.748-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:35:13.747-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:35:13.766-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:35:13.766-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:35:13.816-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.122 seconds
+[2024-04-30T15:36:18.982-0300] {processor.py:161} INFO - Started process (PID=12882) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:36:18.987-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:36:18.994-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:36:18.991-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:36:19.003-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:36:19.034-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:36:19.030-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:36:19.056-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:36:19.055-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:36:19.116-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.142 seconds
+[2024-04-30T15:37:22.659-0300] {processor.py:161} INFO - Started process (PID=12941) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:37:22.665-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:37:22.669-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:37:22.668-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:37:22.677-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:37:22.696-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:37:22.696-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:37:22.710-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:37:22.710-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:37:22.773-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.122 seconds
+[2024-04-30T15:38:28.531-0300] {processor.py:161} INFO - Started process (PID=13008) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:38:28.536-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:38:28.546-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:38:28.542-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:38:28.559-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:38:28.578-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:38:28.577-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:38:28.592-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:38:28.592-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:38:28.634-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.112 seconds
+[2024-04-30T15:39:39.112-0300] {processor.py:161} INFO - Started process (PID=13068) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:39:39.118-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:39:39.120-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:39:39.120-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:39:39.131-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:39:39.158-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:39:39.158-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:39:39.172-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:39:39.171-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:39:39.223-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.122 seconds
+[2024-04-30T15:40:48.454-0300] {processor.py:161} INFO - Started process (PID=13130) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:40:48.459-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:40:48.462-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:40:48.462-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:40:48.471-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:40:48.500-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:40:48.499-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:40:48.520-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:40:48.520-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:40:48.568-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.129 seconds
+[2024-04-30T15:41:53.187-0300] {processor.py:161} INFO - Started process (PID=13191) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:41:53.190-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:41:53.193-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:41:53.192-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:41:53.208-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:41:53.236-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:41:53.235-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:41:53.258-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:41:53.257-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:41:53.308-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.134 seconds
+[2024-04-30T15:42:55.194-0300] {processor.py:161} INFO - Started process (PID=13254) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:42:55.199-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:42:55.201-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:42:55.201-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:42:55.210-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:42:55.228-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:42:55.228-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:42:55.243-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:42:55.242-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:42:55.293-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.119 seconds
+[2024-04-30T15:43:59.927-0300] {processor.py:161} INFO - Started process (PID=13323) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:43:59.932-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:43:59.938-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:43:59.935-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:43:59.949-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:43:59.979-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:43:59.978-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:44:00.004-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:44:00.004-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:44:00.056-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.142 seconds
+[2024-04-30T15:45:06.638-0300] {processor.py:161} INFO - Started process (PID=13383) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:45:06.641-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:45:06.645-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:45:06.645-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:45:06.656-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:45:06.694-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:45:06.692-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:45:06.717-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:45:06.717-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:45:06.769-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.147 seconds
+[2024-04-30T15:46:12.561-0300] {processor.py:161} INFO - Started process (PID=13442) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:46:12.578-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:46:12.581-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:46:12.580-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:46:12.593-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:46:12.621-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:46:12.621-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:46:12.635-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:46:12.635-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:46:12.695-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.146 seconds
+[2024-04-30T15:47:14.794-0300] {processor.py:161} INFO - Started process (PID=13501) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:47:14.797-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:47:14.802-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:47:14.801-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:47:14.818-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:47:14.853-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:47:14.852-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:47:14.879-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:47:14.878-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:47:14.930-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.152 seconds
+[2024-04-30T15:48:24.161-0300] {processor.py:161} INFO - Started process (PID=13567) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:48:24.166-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:48:24.168-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:48:24.168-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:48:24.188-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:48:24.217-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:48:24.217-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:48:24.239-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:48:24.239-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:48:24.296-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.143 seconds
+[2024-04-30T15:49:26.122-0300] {processor.py:161} INFO - Started process (PID=13626) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:49:26.124-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:49:26.127-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:49:26.126-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:49:26.139-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:49:26.166-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:49:26.165-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:49:26.183-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:49:26.183-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:49:26.231-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.124 seconds
+[2024-04-30T15:50:29.646-0300] {processor.py:161} INFO - Started process (PID=13684) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:50:29.652-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:50:29.654-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:50:29.654-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:50:29.665-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:50:29.693-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:50:29.693-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:50:29.717-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:50:29.717-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:50:29.770-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.133 seconds
+[2024-04-30T15:51:33.471-0300] {processor.py:161} INFO - Started process (PID=13744) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:51:33.478-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:51:33.481-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:51:33.481-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:51:33.494-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:51:33.514-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:51:33.514-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:51:33.528-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:51:33.528-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:51:33.576-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.114 seconds
+[2024-04-30T15:52:38.114-0300] {processor.py:161} INFO - Started process (PID=13804) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:52:38.118-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:52:38.122-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:52:38.121-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:52:38.129-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:52:38.148-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:52:38.148-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:52:38.162-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:52:38.162-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:52:38.218-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.113 seconds
+[2024-04-30T15:53:41.419-0300] {processor.py:161} INFO - Started process (PID=13866) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:53:41.428-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:53:41.433-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:53:41.431-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:53:41.442-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:53:41.479-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:53:41.479-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:53:41.500-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:53:41.500-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:53:41.553-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.142 seconds
+[2024-04-30T15:54:43.374-0300] {processor.py:161} INFO - Started process (PID=13923) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:54:43.382-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:54:43.386-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:54:43.385-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:54:43.398-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:54:43.428-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:54:43.428-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:54:43.447-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:54:43.447-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:54:43.519-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.154 seconds
+[2024-04-30T15:55:48.690-0300] {processor.py:161} INFO - Started process (PID=13981) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:55:48.693-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:55:48.698-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:55:48.696-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:55:48.708-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:55:48.735-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:55:48.734-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:55:48.754-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:55:48.754-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:55:48.806-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.130 seconds
+[2024-04-30T15:56:57.932-0300] {processor.py:161} INFO - Started process (PID=14044) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:56:57.934-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:56:57.936-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:56:57.936-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:56:57.944-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:56:57.963-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:56:57.963-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:56:57.977-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:56:57.977-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:56:58.024-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.102 seconds
+[2024-04-30T15:58:05.724-0300] {processor.py:161} INFO - Started process (PID=14109) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:58:05.728-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:58:05.738-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:58:05.738-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:58:05.748-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:58:05.787-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:58:05.787-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:58:05.811-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:58:05.811-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:58:05.873-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.156 seconds
+[2024-04-30T15:59:14.518-0300] {processor.py:161} INFO - Started process (PID=14171) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:59:14.521-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T15:59:14.527-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:59:14.523-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:59:14.537-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T15:59:14.565-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:59:14.565-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T15:59:14.588-0300] {logging_mixin.py:188} INFO - [2024-04-30T15:59:14.588-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T15:59:14.642-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.140 seconds
+[2024-04-30T16:00:24.384-0300] {processor.py:161} INFO - Started process (PID=14231) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:00:24.388-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T16:00:24.391-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:00:24.391-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:00:24.404-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:00:24.434-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:00:24.433-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T16:00:24.459-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:00:24.459-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T16:00:24.515-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.145 seconds
+[2024-04-30T16:01:31.868-0300] {processor.py:161} INFO - Started process (PID=14290) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:01:31.875-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T16:01:31.878-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:01:31.878-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:01:31.886-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:01:31.905-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:01:31.905-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T16:01:32.028-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:01:32.028-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T16:01:32.083-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.223 seconds
+[2024-04-30T16:02:40.476-0300] {processor.py:161} INFO - Started process (PID=14351) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:02:40.478-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T16:02:40.482-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:02:40.481-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:02:40.491-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:02:40.519-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:02:40.518-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T16:02:40.538-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:02:40.537-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T16:02:40.736-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.271 seconds
+[2024-04-30T16:03:53.812-0300] {processor.py:161} INFO - Started process (PID=14426) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:03:53.815-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T16:03:53.819-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:03:53.818-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:03:53.830-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:03:53.855-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:03:53.855-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T16:03:53.876-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:03:53.876-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T16:03:53.936-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.137 seconds
+[2024-04-30T16:05:03.654-0300] {processor.py:161} INFO - Started process (PID=14488) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:05:03.659-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T16:05:03.663-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:05:03.662-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:05:03.675-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:05:03.706-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:05:03.706-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T16:05:03.727-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:05:03.727-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T16:05:03.780-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.134 seconds
+[2024-04-30T16:06:10.211-0300] {processor.py:161} INFO - Started process (PID=14548) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:06:10.213-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T16:06:10.216-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:06:10.215-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:06:10.223-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:06:10.242-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:06:10.242-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T16:06:10.255-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:06:10.255-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T16:06:10.301-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.098 seconds
+[2024-04-30T16:07:16.758-0300] {processor.py:161} INFO - Started process (PID=14607) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:07:16.763-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T16:07:16.767-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:07:16.766-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:07:16.775-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:07:16.796-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:07:16.795-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T16:07:16.809-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:07:16.809-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T16:07:16.855-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.105 seconds
+[2024-04-30T16:08:29.081-0300] {processor.py:161} INFO - Started process (PID=14676) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:08:29.084-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T16:08:29.086-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:08:29.086-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:08:29.103-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:08:29.123-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:08:29.123-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T16:08:29.137-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:08:29.137-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T16:08:29.175-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.108 seconds
+[2024-04-30T16:09:32.656-0300] {processor.py:161} INFO - Started process (PID=14733) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:09:32.658-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T16:09:32.662-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:09:32.661-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:09:32.669-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:09:32.688-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:09:32.688-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T16:09:32.702-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:09:32.702-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T16:09:32.762-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.118 seconds
+[2024-04-30T16:10:38.031-0300] {processor.py:161} INFO - Started process (PID=14794) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:10:38.045-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T16:10:38.047-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:10:38.047-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:10:38.060-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:10:38.090-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:10:38.090-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T16:10:38.113-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:10:38.113-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T16:10:38.168-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.149 seconds
+[2024-04-30T16:11:38.125-0300] {processor.py:161} INFO - Started process (PID=14850) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:11:38.128-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T16:11:38.130-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:11:38.130-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:11:38.140-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:11:38.165-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:11:38.165-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T16:11:38.183-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:11:38.183-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T16:11:38.235-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.121 seconds
+[2024-04-30T16:12:42.237-0300] {processor.py:161} INFO - Started process (PID=14909) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:12:42.249-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T16:12:42.252-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:12:42.251-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:12:42.264-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:12:42.293-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:12:42.292-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T16:12:42.319-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:12:42.319-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T16:12:42.369-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.141 seconds
+[2024-04-30T16:13:45.451-0300] {processor.py:161} INFO - Started process (PID=14970) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:13:45.454-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T16:13:45.462-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:13:45.461-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:13:45.474-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:13:45.499-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:13:45.499-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T16:13:45.514-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:13:45.514-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T16:13:45.553-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.118 seconds
+[2024-04-30T16:15:34.210-0300] {processor.py:161} INFO - Started process (PID=15062) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:15:34.213-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T16:15:34.222-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:15:34.220-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:15:34.246-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:15:34.306-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:15:34.306-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T16:15:34.347-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:15:34.347-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T16:15:34.607-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.405 seconds
+[2024-04-30T16:16:48.413-0300] {processor.py:161} INFO - Started process (PID=15128) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:16:48.417-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T16:16:48.419-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:16:48.418-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:16:48.431-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:16:48.463-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:16:48.463-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T16:16:48.494-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:16:48.493-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T16:16:48.550-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.151 seconds
+[2024-04-30T16:17:52.089-0300] {processor.py:161} INFO - Started process (PID=15215) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:17:52.093-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T16:17:52.101-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:17:52.099-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:17:52.109-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:17:52.138-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:17:52.137-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T16:17:52.157-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:17:52.156-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T16:17:52.206-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.125 seconds
+[2024-04-30T16:18:59.155-0300] {processor.py:161} INFO - Started process (PID=15282) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:18:59.166-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T16:18:59.172-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:18:59.172-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:18:59.180-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:18:59.200-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:18:59.200-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T16:18:59.214-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:18:59.213-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T16:18:59.256-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.109 seconds
+[2024-04-30T16:20:51.315-0300] {processor.py:161} INFO - Started process (PID=15378) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:20:51.322-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T16:20:51.327-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:20:51.326-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:20:51.339-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:20:51.382-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:20:51.382-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T16:20:51.403-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:20:51.403-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T16:20:51.451-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.151 seconds
+[2024-04-30T16:22:13.939-0300] {processor.py:161} INFO - Started process (PID=15546) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:22:13.945-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
+[2024-04-30T16:22:13.948-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:22:13.947-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:22:13.980-0300] {processor.py:840} INFO - DAG(s) 'ls_dag' retrieved from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
+[2024-04-30T16:22:14.035-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:22:14.034-0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T16:22:14.061-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:22:14.060-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
+[2024-04-30T16:22:14.146-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.271 seconds
