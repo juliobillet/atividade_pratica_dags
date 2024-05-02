@@ -663,6 +663,7 @@
 [2024-04-30T16:22:41.510-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:22:41.509-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T16:22:41.533-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:22:41.533-0300] {dag.py:3954} INFO - Setting next_dagrun for example_dynamic_task_mapping_with_no_taskflow_operators to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
 [2024-04-30T16:22:41.600-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py took 0.146 seconds
+<<<<<<< HEAD
 [2024-04-30T16:24:33.656-0300] {processor.py:161} INFO - Started process (PID=15707) to work on /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py
 [2024-04-30T16:24:33.664-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py for tasks to queue
 [2024-04-30T16:24:33.666-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:24:33.665-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py
@@ -2175,3 +2176,5 @@
 [2024-04-30T20:59:48.731-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:48.731-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T20:59:48.760-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:48.760-0300] {dag.py:3954} INFO - Setting next_dagrun for example_dynamic_task_mapping_with_no_taskflow_operators to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
 [2024-04-30T20:59:48.804-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py took 0.123 seconds
+=======
+>>>>>>> refs/remotes/origin/main

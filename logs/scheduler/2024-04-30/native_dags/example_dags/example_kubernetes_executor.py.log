@@ -766,6 +766,7 @@
 [2024-04-30T16:23:36.761-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:23:36.761-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T16:23:36.791-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:23:36.790-0300] {dag.py:3954} INFO - Setting next_dagrun for example_kubernetes_executor to None, run_after=None
 [2024-04-30T16:23:36.867-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_kubernetes_executor.py took 1.979 seconds
+<<<<<<< HEAD
 [2024-04-30T16:25:02.113-0300] {processor.py:161} INFO - Started process (PID=15738) to work on /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_kubernetes_executor.py
 [2024-04-30T16:25:02.122-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
 [2024-04-30T16:25:02.134-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:25:02.131-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_kubernetes_executor.py
@@ -2534,3 +2535,5 @@
 [2024-04-30T20:59:43.647-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:43.647-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T20:59:43.660-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:43.659-0300] {dag.py:3954} INFO - Setting next_dagrun for example_kubernetes_executor to None, run_after=None
 [2024-04-30T20:59:43.715-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.384 seconds
+=======
+>>>>>>> refs/remotes/origin/main

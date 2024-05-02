@@ -656,6 +656,7 @@
 [2024-04-30T16:22:56.356-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:22:56.356-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T16:22:56.433-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:22:56.431-0300] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-04-30 18:00:00+00:00, run_after=2024-04-30 19:00:00+00:00
 [2024-04-30T16:22:56.528-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/hello_world_dag.py took 0.286 seconds
+<<<<<<< HEAD
 [2024-04-30T16:24:44.061-0300] {processor.py:161} INFO - Started process (PID=15718) to work on /home/ath/projects/atividade_pratica_dags/dags/hello_world_dag.py
 [2024-04-30T16:24:44.068-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/hello_world_dag.py for tasks to queue
 [2024-04-30T16:24:44.078-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:24:44.077-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/hello_world_dag.py
@@ -2147,3 +2148,5 @@
 [2024-04-30T20:59:31.218-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:31.218-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T20:59:31.244-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:31.244-0300] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-04-30 22:00:00+00:00, run_after=2024-04-30 23:00:00+00:00
 [2024-04-30T20:59:31.294-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/hello_world_dag.py took 0.118 seconds
+=======
+>>>>>>> refs/remotes/origin/main

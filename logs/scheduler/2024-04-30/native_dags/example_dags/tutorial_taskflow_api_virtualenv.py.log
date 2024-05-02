@@ -766,6 +766,7 @@
 [2024-04-30T16:23:04.308-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:23:04.302-0300] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
 [2024-04-30T16:23:04.309-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
 [2024-04-30T16:23:04.419-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.165 seconds
+<<<<<<< HEAD
 [2024-04-30T16:24:04.046-0300] {processor.py:161} INFO - Started process (PID=15673) to work on /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
 [2024-04-30T16:24:04.049-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
 [2024-04-30T16:24:04.052-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:24:04.051-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
@@ -2710,3 +2711,5 @@
 [2024-04-30T20:59:35.458-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:35.458-0300] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
 [2024-04-30T20:59:35.459-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
 [2024-04-30T20:59:35.474-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.039 seconds
+=======
+>>>>>>> refs/remotes/origin/main

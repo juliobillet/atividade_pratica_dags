@@ -691,6 +691,7 @@
 [2024-04-30T16:23:19.720-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:23:19.720-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T16:23:19.803-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:23:19.803-0300] {dag.py:3954} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
 [2024-04-30T16:23:19.922-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.523 seconds
+<<<<<<< HEAD
 [2024-04-30T16:24:14.418-0300] {processor.py:161} INFO - Started process (PID=15685) to work on /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
 [2024-04-30T16:24:14.429-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
 [2024-04-30T16:24:14.433-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:24:14.432-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
@@ -2301,3 +2302,5 @@
 [2024-04-30T20:59:09.133-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:09.133-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T20:59:09.163-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:09.163-0300] {dag.py:3954} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
 [2024-04-30T20:59:09.204-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.120 seconds
+=======
+>>>>>>> refs/remotes/origin/main

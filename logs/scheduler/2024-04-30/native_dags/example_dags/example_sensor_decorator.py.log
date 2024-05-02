@@ -663,6 +663,7 @@
 [2024-04-30T16:22:37.228-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:22:37.226-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T16:22:37.301-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:22:37.298-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
 [2024-04-30T16:22:37.431-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.377 seconds
+<<<<<<< HEAD
 [2024-04-30T16:24:30.381-0300] {processor.py:161} INFO - Started process (PID=15704) to work on /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
 [2024-04-30T16:24:30.387-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
 [2024-04-30T16:24:30.390-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:24:30.390-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
@@ -2175,3 +2176,5 @@
 [2024-04-30T20:59:26.212-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:26.212-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T20:59:26.226-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:26.226-0300] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
 [2024-04-30T20:59:26.271-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.100 seconds
+=======
+>>>>>>> refs/remotes/origin/main

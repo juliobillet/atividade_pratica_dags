@@ -478,6 +478,7 @@
 [2024-04-30T16:23:38.614-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:23:38.600-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
 [2024-04-30T16:23:38.646-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
 [2024-04-30T16:23:38.756-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.496 seconds
+<<<<<<< HEAD
 [2024-04-30T16:25:03.271-0300] {processor.py:161} INFO - Started process (PID=15739) to work on /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
 [2024-04-30T16:25:03.281-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
 [2024-04-30T16:25:03.284-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:25:03.283-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
@@ -1583,3 +1584,5 @@
 [2024-04-30T20:59:44.846-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:44.846-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
 [2024-04-30T20:59:44.851-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
 [2024-04-30T20:59:44.867-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.040 seconds
+=======
+>>>>>>> refs/remotes/origin/main

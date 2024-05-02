@@ -663,6 +663,7 @@
 [2024-04-30T16:22:51.541-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:22:51.540-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T16:22:51.714-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:22:51.712-0300] {dag.py:3954} INFO - Setting next_dagrun for example_branch_dop_operator_v3 to 2024-04-30 19:21:00+00:00, run_after=2024-04-30 19:22:00+00:00
 [2024-04-30T16:22:51.920-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py took 0.536 seconds
+<<<<<<< HEAD
 [2024-04-30T16:24:40.896-0300] {processor.py:161} INFO - Started process (PID=15713) to work on /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
 [2024-04-30T16:24:40.907-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py for tasks to queue
 [2024-04-30T16:24:40.912-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:24:40.912-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
@@ -2175,3 +2176,5 @@
 [2024-04-30T20:59:55.278-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:55.277-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T20:59:55.305-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:55.305-0300] {dag.py:3954} INFO - Setting next_dagrun for example_branch_dop_operator_v3 to 2024-04-30 23:58:00+00:00, run_after=2024-04-30 23:59:00+00:00
 [2024-04-30T20:59:55.353-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py took 0.122 seconds
+=======
+>>>>>>> refs/remotes/origin/main

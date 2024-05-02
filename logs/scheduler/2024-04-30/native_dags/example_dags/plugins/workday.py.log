@@ -468,6 +468,7 @@
 [2024-04-30T16:22:08.032-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:22:08.032-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
 [2024-04-30T16:22:08.538-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
 [2024-04-30T16:22:08.553-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.540 seconds
+<<<<<<< HEAD
 [2024-04-30T16:23:54.859-0300] {processor.py:161} INFO - Started process (PID=15661) to work on /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
 [2024-04-30T16:23:54.868-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
 [2024-04-30T16:23:54.870-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:23:54.870-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
@@ -1548,3 +1549,5 @@
 [2024-04-30T20:59:57.982-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:57.981-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
 [2024-04-30T20:59:58.416-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
 [2024-04-30T20:59:58.427-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.460 seconds
+=======
+>>>>>>> refs/remotes/origin/main

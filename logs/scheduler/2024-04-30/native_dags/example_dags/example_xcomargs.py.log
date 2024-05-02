@@ -774,6 +774,7 @@
 [2024-04-30T16:23:25.603-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:23:25.602-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
 [2024-04-30T16:23:25.611-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:23:25.611-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
 [2024-04-30T16:23:25.818-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.323 seconds
+<<<<<<< HEAD
 [2024-04-30T16:24:18.759-0300] {processor.py:161} INFO - Started process (PID=15690) to work on /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
 [2024-04-30T16:24:18.766-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
 [2024-04-30T16:24:18.775-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:24:18.775-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
@@ -2582,3 +2583,5 @@
 [2024-04-30T20:59:13.396-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:13.396-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
 [2024-04-30T20:59:13.400-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:13.399-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
 [2024-04-30T20:59:13.439-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.117 seconds
+=======
+>>>>>>> refs/remotes/origin/main

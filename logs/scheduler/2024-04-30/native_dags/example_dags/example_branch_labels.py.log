@@ -684,6 +684,7 @@
 [2024-04-30T16:23:21.290-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:23:21.290-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T16:23:21.354-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:23:21.354-0300] {dag.py:3954} INFO - Setting next_dagrun for example_branch_labels to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
 [2024-04-30T16:23:21.714-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py took 0.549 seconds
+<<<<<<< HEAD
 [2024-04-30T16:24:15.882-0300] {processor.py:161} INFO - Started process (PID=15687) to work on /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py
 [2024-04-30T16:24:15.891-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
 [2024-04-30T16:24:15.894-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:24:15.893-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py
@@ -2294,3 +2295,5 @@
 [2024-04-30T20:59:10.379-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:10.379-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T20:59:10.409-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:10.409-0300] {dag.py:3954} INFO - Setting next_dagrun for example_branch_labels to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
 [2024-04-30T20:59:10.454-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py took 0.127 seconds
+=======
+>>>>>>> refs/remotes/origin/main

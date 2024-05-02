@@ -663,6 +663,7 @@
 [2024-04-30T16:22:29.035-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:22:29.034-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T16:22:29.052-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:22:29.051-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
 [2024-04-30T16:22:29.099-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.138 seconds
+<<<<<<< HEAD
 [2024-04-30T16:24:23.383-0300] {processor.py:161} INFO - Started process (PID=15694) to work on /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
 [2024-04-30T16:24:23.393-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
 [2024-04-30T16:24:23.395-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:24:23.395-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
@@ -2182,3 +2183,5 @@
 [2024-04-30T20:59:20.162-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:20.162-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T20:59:20.178-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:20.177-0300] {dag.py:3954} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
 [2024-04-30T20:59:20.222-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.112 seconds
+=======
+>>>>>>> refs/remotes/origin/main

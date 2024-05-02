@@ -468,6 +468,7 @@
 [2024-04-30T16:22:12.253-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:22:12.243-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
 [2024-04-30T16:22:12.267-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
 [2024-04-30T16:22:12.322-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.144 seconds
+<<<<<<< HEAD
 [2024-04-30T16:23:57.707-0300] {processor.py:161} INFO - Started process (PID=15665) to work on /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
 [2024-04-30T16:23:57.724-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
 [2024-04-30T16:23:57.732-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:23:57.729-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
@@ -1543,3 +1544,5 @@
 [2024-04-30T20:59:00.681-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:00.679-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
 [2024-04-30T20:59:00.684-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
 [2024-04-30T20:59:00.700-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.034 seconds
+=======
+>>>>>>> refs/remotes/origin/main

@@ -468,6 +468,7 @@
 [2024-04-30T16:22:09.726-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:22:09.725-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py
 [2024-04-30T16:22:09.729-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py
 [2024-04-30T16:22:09.755-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py took 0.051 seconds
+<<<<<<< HEAD
 [2024-04-30T16:23:56.501-0300] {processor.py:161} INFO - Started process (PID=15663) to work on /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py
 [2024-04-30T16:23:56.508-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py for tasks to queue
 [2024-04-30T16:23:56.511-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:23:56.510-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py
@@ -1548,3 +1549,5 @@
 [2024-04-30T20:59:59.558-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:59.557-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py
 [2024-04-30T20:59:59.560-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py
 [2024-04-30T20:59:59.574-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py took 0.031 seconds
+=======
+>>>>>>> refs/remotes/origin/main

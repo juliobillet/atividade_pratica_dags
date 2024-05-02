@@ -1167,6 +1167,7 @@
 [2024-04-30T16:23:01.105-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:23:01.094-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T16:23:01.568-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:23:01.568-0300] {dag.py:3954} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
 [2024-04-30T16:23:02.204-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 2.240 seconds
+<<<<<<< HEAD
 [2024-04-30T16:24:01.688-0300] {processor.py:161} INFO - Started process (PID=15671) to work on /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
 [2024-04-30T16:24:01.695-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
 [2024-04-30T16:24:01.699-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:24:01.698-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
@@ -3785,3 +3786,5 @@
 [2024-04-30T20:59:33.028-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:33.028-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T20:59:33.044-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:33.044-0300] {dag.py:3954} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
 [2024-04-30T20:59:33.087-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.156 seconds
+=======
+>>>>>>> refs/remotes/origin/main

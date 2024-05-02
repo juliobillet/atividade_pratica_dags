@@ -663,6 +663,7 @@
 [2024-04-30T16:22:38.828-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:22:38.828-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T16:22:38.864-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:22:38.864-0300] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
 [2024-04-30T16:22:38.925-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py took 0.222 seconds
+<<<<<<< HEAD
 [2024-04-30T16:24:31.648-0300] {processor.py:161} INFO - Started process (PID=15705) to work on /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
 [2024-04-30T16:24:31.655-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
 [2024-04-30T16:24:31.658-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:24:31.658-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
@@ -2175,3 +2176,5 @@
 [2024-04-30T20:59:27.407-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:27.407-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T20:59:27.431-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:27.431-0300] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
 [2024-04-30T20:59:27.478-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py took 0.126 seconds
+=======
+>>>>>>> refs/remotes/origin/main

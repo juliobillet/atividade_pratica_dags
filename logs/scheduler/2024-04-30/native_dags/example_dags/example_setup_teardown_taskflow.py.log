@@ -782,6 +782,7 @@
 [2024-04-30T16:23:07.195-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:23:07.195-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T16:23:07.298-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:23:07.294-0300] {dag.py:3954} INFO - Setting next_dagrun for example_setup_teardown_taskflow to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
 [2024-04-30T16:23:07.558-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py took 0.620 seconds
+<<<<<<< HEAD
 [2024-04-30T16:24:06.461-0300] {processor.py:161} INFO - Started process (PID=15675) to work on /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
 [2024-04-30T16:24:06.469-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py for tasks to queue
 [2024-04-30T16:24:06.472-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:24:06.471-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
@@ -2665,3 +2666,5 @@
 [2024-04-30T20:59:04.731-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:04.731-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T20:59:04.758-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:04.758-0300] {dag.py:3954} INFO - Setting next_dagrun for example_setup_teardown_taskflow to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
 [2024-04-30T20:59:04.799-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py took 0.128 seconds
+=======
+>>>>>>> refs/remotes/origin/main

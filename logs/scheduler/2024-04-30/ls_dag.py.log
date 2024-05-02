@@ -656,6 +656,7 @@
 [2024-04-30T16:22:14.035-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:22:14.034-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T16:22:14.061-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:22:14.060-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
 [2024-04-30T16:22:14.146-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.271 seconds
+<<<<<<< HEAD
 [2024-04-30T16:23:59.049-0300] {processor.py:161} INFO - Started process (PID=15668) to work on /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
 [2024-04-30T16:23:59.052-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py for tasks to queue
 [2024-04-30T16:23:59.065-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:23:59.058-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py
@@ -2161,3 +2162,5 @@
 [2024-04-30T20:59:28.654-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:28.654-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T20:59:28.670-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:28.670-0300] {dag.py:3954} INFO - Setting next_dagrun for ls_dag to None, run_after=None
 [2024-04-30T20:59:28.716-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/dags/ls_dag.py took 0.109 seconds
+=======
+>>>>>>> refs/remotes/origin/main

@@ -468,6 +468,7 @@
 [2024-04-30T16:22:06.718-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:22:06.718-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
 [2024-04-30T16:22:06.722-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
 [2024-04-30T16:22:06.801-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.115 seconds
+<<<<<<< HEAD
 [2024-04-30T16:23:53.698-0300] {processor.py:161} INFO - Started process (PID=15660) to work on /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
 [2024-04-30T16:23:53.710-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
 [2024-04-30T16:23:53.713-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:23:53.712-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
@@ -1548,3 +1549,5 @@
 [2024-04-30T20:59:57.745-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:57.745-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
 [2024-04-30T20:59:57.749-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py
 [2024-04-30T20:59:57.762-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.032 seconds
+=======
+>>>>>>> refs/remotes/origin/main

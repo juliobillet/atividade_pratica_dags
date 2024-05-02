@@ -670,6 +670,7 @@
 [2024-04-30T16:23:44.799-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:23:44.799-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T16:23:44.849-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:23:44.849-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
 [2024-04-30T16:23:45.091-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 1.527 seconds
+<<<<<<< HEAD
 [2024-04-30T16:25:04.735-0300] {processor.py:161} INFO - Started process (PID=15741) to work on /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
 [2024-04-30T16:25:04.742-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
 [2024-04-30T16:25:04.744-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:25:04.744-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py
@@ -2203,3 +2204,5 @@
 [2024-04-30T20:59:46.987-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:46.987-0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T20:59:47.017-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:47.016-0300] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
 [2024-04-30T20:59:47.067-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_xcom.py took 0.133 seconds
+=======
+>>>>>>> refs/remotes/origin/main

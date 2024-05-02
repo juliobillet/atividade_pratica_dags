@@ -1518,6 +1518,7 @@
 [2024-04-30T16:22:40.265-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:22:40.265-0300] {dag.py:3954} INFO - Setting next_dagrun for dataset_produces_1 to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
 [2024-04-30T16:22:40.266-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:22:40.266-0300] {dag.py:3954} INFO - Setting next_dagrun for dataset_produces_2 to None, run_after=None
 [2024-04-30T16:22:40.374-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_datasets.py took 0.281 seconds
+<<<<<<< HEAD
 [2024-04-30T16:24:32.966-0300] {processor.py:161} INFO - Started process (PID=15706) to work on /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_datasets.py
 [2024-04-30T16:24:32.973-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_datasets.py for tasks to queue
 [2024-04-30T16:24:32.977-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:24:32.976-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_datasets.py
@@ -4974,3 +4975,5 @@
 [2024-04-30T20:59:47.474-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:47.473-0300] {dag.py:3954} INFO - Setting next_dagrun for dataset_produces_1 to 2024-04-29 00:00:00+00:00, run_after=2024-04-30 00:00:00+00:00
 [2024-04-30T20:59:47.475-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:47.475-0300] {dag.py:3954} INFO - Setting next_dagrun for dataset_produces_2 to None, run_after=None
 [2024-04-30T20:59:47.526-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_datasets.py took 0.186 seconds
+=======
+>>>>>>> refs/remotes/origin/main

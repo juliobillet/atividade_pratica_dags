@@ -473,6 +473,7 @@
 [2024-04-30T16:22:35.708-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:22:35.707-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
 [2024-04-30T16:22:35.712-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
 [2024-04-30T16:22:35.736-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.071 seconds
+<<<<<<< HEAD
 [2024-04-30T16:24:28.888-0300] {processor.py:161} INFO - Started process (PID=15700) to work on /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
 [2024-04-30T16:24:28.898-0300] {processor.py:830} INFO - Processing file /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
 [2024-04-30T16:24:28.901-0300] {logging_mixin.py:188} INFO - [2024-04-30T16:24:28.900-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
@@ -1553,3 +1554,5 @@
 [2024-04-30T20:59:25.940-0300] {logging_mixin.py:188} INFO - [2024-04-30T20:59:25.940-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
 [2024-04-30T20:59:25.945-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py
 [2024-04-30T20:59:25.961-0300] {processor.py:183} INFO - Processing /home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator.py took 0.036 seconds
+=======
+>>>>>>> refs/remotes/origin/main
