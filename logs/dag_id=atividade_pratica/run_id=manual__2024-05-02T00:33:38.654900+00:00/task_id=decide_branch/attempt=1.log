@@ -1,0 +1,40 @@
+[2024-05-01T21:34:09.576-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-01T21:34:09.598-0300] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: atividade_pratica.decide_branch manual__2024-05-02T00:33:38.654900+00:00 [queued]>
+[2024-05-01T21:34:09.609-0300] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: atividade_pratica.decide_branch manual__2024-05-02T00:33:38.654900+00:00 [queued]>
+[2024-05-01T21:34:09.610-0300] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-05-01T21:34:09.642-0300] {taskinstance.py:2327} INFO - Executing <Task(BranchPythonOperator): decide_branch> on 2024-05-02 00:33:38.654900+00:00
+[2024-05-01T21:34:09.648-0300] {standard_task_runner.py:63} INFO - Started process 14564 to run task
+[2024-05-01T21:34:09.653-0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'atividade_pratica', 'decide_branch', 'manual__2024-05-02T00:33:38.654900+00:00', '--job-id', '78', '--raw', '--subdir', 'DAGS_FOLDER/atividade_pratica.py', '--cfg-path', '/tmp/tmp5waafqh2']
+[2024-05-01T21:34:09.654-0300] {standard_task_runner.py:91} INFO - Job 78: Subtask decide_branch
+[2024-05-01T21:34:09.746-0300] {task_command.py:426} INFO - Running <TaskInstance: atividade_pratica.decide_branch manual__2024-05-02T00:33:38.654900+00:00 [running]> on host xubuntu.myguest.virtualbox.org
+[2024-05-01T21:34:09.867-0300] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='atividade_pratica' AIRFLOW_CTX_TASK_ID='decide_branch' AIRFLOW_CTX_EXECUTION_DATE='2024-05-02T00:33:38.654900+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-02T00:33:38.654900+00:00'
+[2024-05-01T21:34:09.868-0300] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-01T21:34:09.869-0300] {baseoperator.py:399} WARNING - BranchPythonOperator.execute cannot be called outside TaskInstance!
+[2024-05-01T21:34:09.878-0300] {python.py:237} INFO - Done. Returned value was: AIRFLOW_HOME found
+[2024-05-01T21:34:09.878-0300] {branch.py:36} INFO - Branch into AIRFLOW_HOME found
+[2024-05-01T21:34:09.878-0300] {skipmixin.py:178} INFO - Following branch AIRFLOW_HOME found
+[2024-05-01T21:34:09.879-0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-01T21:34:10.034-0300] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/operators/python.py", line 269, in execute
+    return self.do_branch(context, super().execute(context))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/operators/branch.py", line 37, in do_branch
+    self.skip_all_except(context["ti"], branches_to_execute)
+  File "/home/ath/projects/atividade_pratica_dags/.venv/lib/python3.11/site-packages/airflow/models/skipmixin.py", line 215, in skip_all_except
+    raise AirflowException(
+airflow.exceptions.AirflowException: 'branch_task_ids' must contain only valid task_ids. Invalid tasks found: {'AIRFLOW_HOME found'}.
+[2024-05-01T21:34:10.063-0300] {taskinstance.py:1205} INFO - Marking task as FAILED. dag_id=atividade_pratica, task_id=decide_branch, execution_date=20240502T003338, start_date=20240502T003409, end_date=20240502T003410
+[2024-05-01T21:34:10.096-0300] {standard_task_runner.py:110} ERROR - Failed to execute job 78 for task decide_branch ('branch_task_ids' must contain only valid task_ids. Invalid tasks found: {'AIRFLOW_HOME found'}.; 14564)
+[2024-05-01T21:34:10.126-0300] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-05-01T21:34:10.169-0300] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-01T21:34:10.190-0300] {local_task_job_runner.py:222} INFO - ::endgroup::

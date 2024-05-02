@@ -1,0 +1,18 @@
+[2024-05-01T21:02:47.277-0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-01T21:02:47.294-0300] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: atividade_pratica.verify_return_value manual__2024-05-02T00:01:57.809847+00:00 [queued]>
+[2024-05-01T21:02:47.304-0300] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: atividade_pratica.verify_return_value manual__2024-05-02T00:01:57.809847+00:00 [queued]>
+[2024-05-01T21:02:47.304-0300] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-05-01T21:02:47.338-0300] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): verify_return_value> on 2024-05-02 00:01:57.809847+00:00
+[2024-05-01T21:02:47.345-0300] {standard_task_runner.py:63} INFO - Started process 12557 to run task
+[2024-05-01T21:02:47.351-0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'atividade_pratica', 'verify_return_value', 'manual__2024-05-02T00:01:57.809847+00:00', '--job-id', '76', '--raw', '--subdir', 'DAGS_FOLDER/atividade_pratica.py', '--cfg-path', '/tmp/tmpukare8h7']
+[2024-05-01T21:02:47.355-0300] {standard_task_runner.py:91} INFO - Job 76: Subtask verify_return_value
+[2024-05-01T21:02:47.433-0300] {task_command.py:426} INFO - Running <TaskInstance: atividade_pratica.verify_return_value manual__2024-05-02T00:01:57.809847+00:00 [running]> on host xubuntu.myguest.virtualbox.org
+[2024-05-01T21:02:47.645-0300] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='atividade_pratica' AIRFLOW_CTX_TASK_ID='verify_return_value' AIRFLOW_CTX_EXECUTION_DATE='2024-05-02T00:01:57.809847+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-02T00:01:57.809847+00:00'
+[2024-05-01T21:02:47.647-0300] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-01T21:02:47.674-0300] {logging_mixin.py:188} INFO - /home/ath/projects/atividade_pratica_dags
+[2024-05-01T21:02:47.676-0300] {python.py:237} INFO - Done. Returned value was: Variável de ambiente AIRFLOW_HOME encontrada
+[2024-05-01T21:02:47.676-0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-01T21:02:47.970-0300] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=atividade_pratica, task_id=verify_return_value, execution_date=20240502T000157, start_date=20240502T000247, end_date=20240502T000247
+[2024-05-01T21:02:48.059-0300] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-01T21:02:48.081-0300] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-01T21:02:48.082-0300] {local_task_job_runner.py:222} INFO - ::endgroup::

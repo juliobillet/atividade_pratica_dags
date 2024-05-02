@@ -7,22 +7,16 @@ from airflow.operators.bash import BashOperator
 from airflow.operators.python import BranchPythonOperator
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.providers.postgres.operators.postgres import PostgresOperator
+from airflow.sensors.filesystem import FileSensor
 
-
-with (DAG(
+with DAG(
     dag_id="atividade_pratica_dag",
     start_date=datetime(2020, 1, 1),
     schedule_interval=None,
     catchup=False
-) as dag):
-    def share_path(ti):
-        with open("/data/path.txt", "r") as data:
-            path = data.read()
-        ti.xcom_push(key="path", value=path)
-    
-    
+) as dag:
     def read_players(ti):
-        airflow_home = ti.xcom_pull(task_ids="share_path_task", key="path")
+        airflow_home = ti.xcom_pull(task_ids="get_airflow_home")
         pghook = PostgresHook(postgres_conn_id="PG_SWORDBLAST")
         pghook.copy_expert(
             "COPY (SELECT * FROM players) TO stdout WITH CSV HEADER",
@@ -31,7 +25,7 @@ with (DAG(
 
 
     def read_currency(ti):
-        airflow_home = ti.xcom_pull(task_ids="share_path_task", key="path")
+        airflow_home = ti.xcom_pull(task_ids="get_airflow_home")
         pghook = PostgresHook(postgres_conn_id="PG_SWORDBLAST")
         pghook.copy_expert(
             "COPY (SELECT * FROM currency) TO stdout WITH CSV HEADER",
@@ -40,7 +34,7 @@ with (DAG(
 
 
     def update_currency_csv(ti):
-        airflow_home = ti.xcom_pull(task_ids="share_path_task", key="path")
+        airflow_home = ti.xcom_pull(task_ids="get_airflow_home")
         pghook = PostgresHook(postgres_conn_id="PG_SWORDBLAST")
         pghook.copy_expert(
             "COPY (SELECT * FROM currency) TO stdout WITH CSV HEADER",
@@ -49,7 +43,7 @@ with (DAG(
 
 
     def read_player_ids(ti):
-        airflow_home = ti.xcom_pull(task_ids="share_path_task", key="path")
+        airflow_home = ti.xcom_pull(task_ids="get_airflow_home")
         df = pd.read_csv(airflow_home + "/data/players.csv")
         player_id_list = df["player_id"].tolist()
         ids = str(player_id_list).replace("[", "(").replace("]", ")")
@@ -57,7 +51,7 @@ with (DAG(
 
 
     def path_exists(ti):
-        file_path = ti.xcom_pull(task_ids="share_path_task", key="path") + "/data/path.txt"
+        file_path = str(ti.xcom_pull(task_ids="get_airflow_home")) + "/data/path.txt"
         if os.path.exists(file_path) and os.path.getsize(file_path) > 0:
             return "path_exists"
         else:
@@ -71,6 +65,34 @@ with (DAG(
             print("Ocorreu um erro ao tentar recuperar o caminho da variável de ambiente AIRFLOW_HOME")
 
 
+    def check_file_empty(ti):
+        file_path = str(ti.xcom_pull(task_ids="get_airflow_home")) + "/data/path.txt"
+        with open(file_path, 'r') as file:
+            content = file.read()
+            if not content.strip():
+                print(f'O arquivo {file_path} está vazio.')
+            else:
+                print(f'O arquivo {file_path} não está vazio.')
+
+
+    file_sensor = FileSensor(
+        task_id="check_file_existence",
+        filepath='{{ str(task_instance.xcom_pull(task_ids="get_airflow_home")) + "/data/path.txt" }}',
+        poke_interval=5,
+        timeout=50,
+    )
+
+    check_file_task = PythonOperator(
+        task_id='check_file_empty',
+        python_callable=check_file_empty
+    )
+
+    get_airflow_home = BashOperator(
+        task_id="get_airflow_home",
+        bash_command="echo $AIRFLOW_HOME",
+        do_xcom_push=True
+    )
+
     create_data_folder_task = BashOperator(
         task_id="create_data_folder",
         bash_command="mkdir -p $AIRFLOW_HOME/data"
@@ -83,7 +105,7 @@ with (DAG(
 
     decide_branch_task = BranchPythonOperator(
         task_id="decide_branch",
-        python_callable=path_exists
+        python_callable=check_file_empty
     )
     
     path_exists_task = PythonOperator(
@@ -130,5 +152,5 @@ with (DAG(
         python_callable=update_currency_csv
     )
 
-    create_data_folder_task >> get_path_task >> decide_branch_task >> [path_exists_task, path_does_not_exist_task]
+    get_airflow_home >> create_data_folder_task >> get_path_task >> decide_branch_task >> [path_exists_task, path_does_not_exist_task]
     path_exists_task >> share_path_task >> read_players_task >> read_currency_task >> read_player_ids_task >> update_currency_task >> update_currency_csv_task

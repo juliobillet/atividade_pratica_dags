@@ -1,3 +1,7 @@
 .venv
 .gitignore
 .tool-versions
+data
+webserver_config.py
+airflow.cfg
+airflow.db
