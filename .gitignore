@@ -1,7 +1,14 @@
-.venv
+.venv/
 .gitignore
 .tool-versions
-data
 webserver_config.py
 airflow.cfg
 airflow.db
+logs/
+airflow-scheduler.err
+airflow-scheduler.log
+airflow-scheduler.out
+airflow-webserver.err
+airflow-webserver.log
+airflow-webserver.out
+airflow-webserver.pid

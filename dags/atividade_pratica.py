@@ -1,13 +1,11 @@
 from datetime import datetime
 from airflow import DAG
 import pandas as pd
-import os
 from airflow.operators.python import PythonOperator
 from airflow.operators.bash import BashOperator
 from airflow.operators.python import BranchPythonOperator
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from airflow.providers.postgres.operators.postgres import PostgresOperator
-from airflow.sensors.filesystem import FileSensor
 
 
 with DAG(
@@ -17,8 +15,7 @@ with DAG(
     catchup=False
 ) as dag:
 
-    def verify_returned_value(**kwargs):
-        ti = kwargs["ti"]
+    def verify_returned_value(ti):
         returned_value = ti.xcom_pull(task_ids="check_airflow_home")
 
         if not str(returned_value).strip():
@@ -35,18 +32,36 @@ with DAG(
         data_folder_path = ti.xcom_pull(task_ids="get_data_folder_path")
         pghook = PostgresHook(postgres_conn_id="pg_test")
         pghook.copy_expert(
-            "COPY (SELECT * FROM players) TO stdout WITH CSV HEADER",
+            "COPY (SELECT * FROM player) TO stdout WITH CSV HEADER",
             data_folder_path + "/players.csv"
         )
 
 
     def read_currency_db(ti):
-        data_folder_path = ti.xcom_pull(task_ids="get_airflow_home")
+        data_folder_path = ti.xcom_pull(task_ids="get_data_folder_path")
         pghook = PostgresHook(postgres_conn_id="pg_test")
         pghook.copy_expert(
             "COPY (SELECT * FROM currency) TO stdout WITH CSV HEADER",
             data_folder_path + "/currency.csv"
         )
+
+    def read_players_ids_db(ti):
+        data_folder_path = ti.xcom_pull(task_ids="get_data_folder_path")
+        df = pd.read_csv(data_folder_path + "/players.csv")
+        players_id_list = df["player_id"].tolist()
+        ids = str(players_id_list).replace("[", "(").replace("]", ")")
+        ti.xcom_push(key="player_ids", value=ids)
+        print(ids)
+
+
+    def update_currency_csv_file(ti):
+        data_folder_path = ti.xcom_pull(task_ids="get_data_folder_path")
+        pghook = PostgresHook(postgres_conn_id="pg_test")
+        pghook.copy_expert(
+            "COPY (SELECT * FROM currency) TO stdout WITH CSV HEADER",
+            data_folder_path + "/updated_currency.csv"
+        )
+
 
     check_airflow_home = BashOperator(
         task_id="check_airflow_home",
@@ -82,8 +97,30 @@ with DAG(
         provide_context=True
     )
 
+    read_currency = PythonOperator(
+        task_id="read_currency",
+        python_callable=read_currency_db,
+        provide_context=True
+    )
+
+    read_player_ids = PythonOperator(
+        task_id="read_player_ids",
+        python_callable=read_players_ids_db,
+        provide_context=True
+    )
+
+    update_currency = PostgresOperator(
+        task_id="update_currency",
+        postgres_conn_id="pg_test",
+        sql="UPDATE currency SET currency_amount = currency_amount * 2 WHERE player_id in"
+            "{{ task_instance.xcom_pull(task_ids='read_player_ids', key='player_ids') }}"
+    )
+
+    update_currency_csv = PythonOperator(
+        task_id="update_currency_csv",
+        python_callable=update_currency_csv_file,
+        provide_context=True
+    )
+
     check_airflow_home >> decide_branch >> [create_data_folder, airflow_home_not_found]
-    create_data_folder >> get_data_folder_path >> read_players
-    # create_data_folder
-    # airflow_home_found
-    # airflow_home_not_found
+    create_data_folder >> get_data_folder_path >> read_players >> read_currency >> read_player_ids >> update_currency >> update_currency_csv

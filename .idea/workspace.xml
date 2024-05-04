@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f57f97f-a142-4481-ad3f-190e342d62e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dags/atividade_pratica.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/airflow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/airflow.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/airflow.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/airflow.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/airflow.db" beforeDir="false" afterPath="$PROJECT_DIR$/airflow.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dags/atividade_pratica_dag.py" beforeDir="false" afterPath="$PROJECT_DIR$/dags/atividade_pratica_dag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dags/atividade_pratica.py" beforeDir="false" afterPath="$PROJECT_DIR$/dags/atividade_pratica.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/dag_processor_manager/dag_processor_manager.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/dag_processor_manager/dag_processor_manager.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/scheduler/latest" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/latest" afterDir="false" />
     </list>
@@ -41,8 +40,9 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ath/projects/atividade_pratica_dags/.venv/bin/python&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/minerva/projects/atividade_pratica_dags&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -71,6 +71,8 @@
       <workItem from="1714496099671" duration="16745000" />
       <workItem from="1714596704767" duration="16465000" />
       <workItem from="1714680519624" duration="452000" />
+      <workItem from="1714710271073" duration="4331000" />
+      <workItem from="1714773458748" duration="9306000" />
     </task>
     <servers />
   </component>

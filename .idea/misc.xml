@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.11 (airflow)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 virtualenv at ~/projects/atividade_pratica_dags/.venv" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (atividade_pratica_dags)" project-jdk-type="Python SDK" />
 </project>
